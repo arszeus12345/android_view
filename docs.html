@@ -25,6 +25,25 @@
       </nav>
 
       <div class="nav-cta">
+        <!-- Language Selector -->
+        <div class="lang-selector">
+          <button class="lang-btn" id="lang-btn" aria-haspopup="true" aria-expanded="false">
+            <span id="current-lang-flag" class="flag-icon">🇻🇳</span>
+            <span id="current-lang-text">Tiếng Việt</span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="lang-dropdown" id="lang-dropdown">
+            <a href="#" data-lang="vi" class="lang-option active"><span class="flag-icon">🇻🇳</span> Tiếng Việt</a>
+            <a href="#" data-lang="en" class="lang-option"><span class="flag-icon">🇺🇸</span> English</a>
+            <a href="#" data-lang="zh" class="lang-option"><span class="flag-icon">🇨🇳</span> 简体中文</a>
+            <a href="#" data-lang="ko" class="lang-option"><span class="flag-icon">🇰🇷</span> 한국어</a>
+            <a href="#" data-lang="th" class="lang-option"><span class="flag-icon">🇹🇭</span> ภาษาไทย</a>
+            <a href="#" data-lang="id" class="lang-option"><span class="flag-icon">🇮🇩</span> Bahasa Indonesia</a>
+            <a href="#" data-lang="ru" class="lang-option"><span class="flag-icon">🇷🇺</span> Русский</a>
+            <a href="#" data-lang="hi" class="lang-option"><span class="flag-icon">🇮🇳</span> हिन्दी</a>
+          </div>
+        </div>
+
         <a href="index.html#pricing" class="btn btn-secondary" id="header-cta">
           <!-- Động: CTA từ data.js -->
         </a>
@@ -110,6 +129,23 @@
 
   <!-- Script bổ trợ trang tài liệu -->
   <script>
+    // Định nghĩa nhãn sao chép đa ngôn ngữ
+    const copyBtnLabels = {
+      vi: { copy: "Sao chép", copied: "Đã sao chép" },
+      en: { copy: "Copy", copied: "Copied" },
+      zh: { copy: "复制", copied: "已复制" },
+      ko: { copy: "복사", copied: "복사됨" },
+      th: { copy: "คัดลอก", copied: "คัดลอกแล้ว" },
+      id: { copy: "Salin", copied: "Tersalin" },
+      ru: { copy: "Копировать", copied: "Скопировано" },
+      hi: { copy: "कॉपी करें", copied: "कॉपी हो गया" }
+    };
+
+    // Hàm lấy ngôn ngữ hiện tại
+    function getActiveLang() {
+      return window.detectPreferredLanguage ? window.detectPreferredLanguage() : (localStorage.getItem('preferredLanguage') || 'vi');
+    }
+
     // Hàm copy nội dung của code block
     function copyCode(button) {
       const container = button.closest('.docs-code-container');
@@ -117,10 +153,12 @@
       if (!codeElement) return;
 
       const codeText = codeElement.textContent;
+      const lang = getActiveLang();
+      const labels = copyBtnLabels[lang] || copyBtnLabels['vi'];
 
       navigator.clipboard.writeText(codeText).then(() => {
         const originalHTML = button.innerHTML;
-        button.innerHTML = '<i class="fas fa-check"></i> Đã sao chép';
+        button.innerHTML = `<i class="fas fa-check"></i> ${labels.copied}`;
         button.style.backgroundColor = 'rgba(16, 185, 129, 0.2)';
         button.style.color = '#10b981';
 
@@ -142,10 +180,30 @@
         return;
       }
 
-      // Đặt tiêu đề sidebar
+      const lang = getActiveLang();
+      const labels = copyBtnLabels[lang] || copyBtnLabels['vi'];
+
+      // Đặt tiêu đề sidebar và page title
       const sidebarTitle = document.getElementById('docs-sidebar-title');
       if (sidebarTitle && docs.title) {
         sidebarTitle.textContent = docs.title;
+        document.title = docs.title + " - DroidVision Pro";
+      }
+
+      // Đặt meta description động nếu có
+      const metaDesc = document.querySelector('meta[name="description"]');
+      if (metaDesc) {
+        const descMap = {
+          vi: "Hướng dẫn chi tiết cách kết nối thiết bị Android, điều khiển đồng bộ hàng loạt, cài đặt APK nhanh và khắc phục các sự có thường gặp trên DroidVision Pro.",
+          en: "Detailed guide on connecting Android devices, bulk synchronized control, fast APK installation, and troubleshooting common issues on DroidVision Pro.",
+          zh: "详细指南：在 DroidVision Pro 上连接安卓设备、批量同步控制、快速安装 APK 以及排除常见故障。",
+          ko: "DroidVision Pro에서 안드로이드 기기 연결, 대량 동기화 제어, 빠른 APK 설치 및 자주 발생하는 문제 해결에 대한 상세 가이드.",
+          th: "คู่มือโดยละเอียดเกี่ยวกับการเชื่อมต่ออุปกรณ์แอนดรอยด์, การควบคุมพร้อมกันแบบกลุ่ม, การติดตั้ง APK อย่างรวดเร็ว และการแก้ไขปัญหาที่พบบ่อยบน DroidVision Pro",
+          id: "Panduan terperinci tentang cara menghubungkan perangkat Android, kontrol sinkron massal, instalasi APK cepat, dan penyelesaian masalah umum pada DroidVision Pro.",
+          ru: "Подробное руководство по подключению устройств Android, массовому синхронному управлению, быстрой установке APK и устранению типичных неполадок в DroidVision Pro.",
+          hi: "DroidVision Pro पर एंड्रॉइड डिवाइस कनेक्ट करने, थोक सिंक्रनाइज़ नियंत्रण, त्वरित एपीके इंस्टॉलेशन और सामान्य समस्याओं के निवारण पर विस्तृत मार्गदर्शिका।"
+        };
+        metaDesc.setAttribute('content', descMap[lang] || descMap['vi']);
       }
 
       // Render danh mục bên trái
@@ -194,7 +252,7 @@
                   <div class="docs-code-container">
                     <div class="docs-code-header">
                       <span class="docs-code-lang">${block.lang}</span>
-                      <button class="docs-copy-btn" onclick="copyCode(this)"><i class="far fa-copy"></i> Sao chép</button>
+                      <button class="docs-copy-btn" onclick="copyCode(this)"><i class="far fa-copy"></i> ${labels.copy}</button>
                     </div>
                     <div class="docs-code-pre">
                       <pre><code>${block.code}</code></pre>

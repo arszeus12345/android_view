@@ -7,6 +7,155 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const data = window.productData;
 
+  // Lấy ngôn ngữ hiện tại
+  const activeLang = window.detectPreferredLanguage ? window.detectPreferredLanguage() : (localStorage.getItem('preferredLanguage') || 'vi');
+
+  // Cập nhật nhãn ngôn ngữ hiện tại trên nút chọn
+  const langTextEl = document.getElementById("current-lang-text");
+  if (langTextEl) {
+    const langNames = {
+      vi: "Tiếng Việt",
+      en: "English",
+      zh: "简体中文",
+      ko: "한국어",
+      th: "ภาษาไทย",
+      id: "Bahasa Indonesia",
+      ru: "Русский",
+      hi: "हिन्दी"
+    };
+    langTextEl.textContent = langNames[activeLang] || "Tiếng Việt";
+  }
+
+  // Cập nhật cờ tương ứng trên nút chọn
+  const langFlagEl = document.getElementById("current-lang-flag");
+  if (langFlagEl) {
+    const langFlags = {
+      vi: "🇻🇳",
+      en: "🇺🇸",
+      zh: "🇨🇳",
+      ko: "🇰🇷",
+      th: "🇹🇭",
+      id: "🇮🇩",
+      ru: "🇷🇺",
+      hi: "🇮🇳"
+    };
+    langFlagEl.textContent = langFlags[activeLang] || "🇻🇳";
+  }
+
+  // Cập nhật trạng thái active của tùy chọn ngôn ngữ trong dropdown
+  const langOptions = document.querySelectorAll(".lang-option");
+  langOptions.forEach(opt => {
+    if (opt.getAttribute("data-lang") === activeLang) {
+      opt.classList.add("active");
+    } else {
+      opt.classList.remove("active");
+    }
+  });
+
+  // Cập nhật các chuỗi tĩnh trong HTML theo ngôn ngữ đã chọn
+  const updateStaticTranslations = () => {
+    const ui = data.ui;
+    if (!ui) return;
+
+    // Tiêu đề trang & Meta Description
+    document.title = ui.title;
+    const metaDesc = document.querySelector('meta[name="description"]');
+    if (metaDesc) metaDesc.setAttribute('content', ui.description);
+
+    // Text phần simulator bộ giả lập
+    const simTitleEl = document.querySelector('.sim-title');
+    if (simTitleEl) simTitleEl.textContent = ui.simTitle;
+
+    const simActiveCountEl = document.getElementById('sim-active-count');
+    if (simActiveCountEl) simActiveCountEl.innerHTML = `<span class="pulse-indicator"></span> ${ui.simActiveCount}`;
+
+    const simSidebarTitleEl = document.querySelector('.sim-sidebar-title');
+    if (simSidebarTitleEl) simSidebarTitleEl.textContent = ui.simSidebarTitle;
+
+    const simBtnSyncSpan = document.querySelector('#sim-btn-sync span');
+    if (simBtnSyncSpan) simBtnSyncSpan.textContent = ui.simBtnSync;
+
+    const simBtnFileSpan = document.querySelector('#sim-btn-file span');
+    if (simBtnFileSpan) simBtnFileSpan.textContent = ui.simBtnFile;
+
+    const simBtnApkSpan = document.querySelector('#sim-btn-apk span');
+    if (simBtnApkSpan) simBtnApkSpan.textContent = ui.simBtnApk;
+
+    const simBtnRebootSpan = document.querySelector('#sim-btn-reboot span');
+    if (simBtnRebootSpan) simBtnRebootSpan.textContent = ui.simBtnReboot;
+
+    const latencyLabelEl = document.querySelector('.hud-stat-item:nth-child(1) .label');
+    if (latencyLabelEl) latencyLabelEl.textContent = ui.latencyLabel;
+
+    const fpsLabelEl = document.querySelector('.hud-stat-item:nth-child(2) .label');
+    if (fpsLabelEl) fpsLabelEl.textContent = ui.fpsLabel;
+
+    // Trạng thái các thiết bị giả lập
+    const p1Status = document.getElementById('phone-status-1');
+    if (p1Status) p1Status.textContent = ui.batteryOnline.replace('{val}', '92');
+    const p2Status = document.getElementById('phone-status-2');
+    if (p2Status) p2Status.textContent = ui.batteryOnline.replace('{val}', '88');
+    const p3Status = document.getElementById('phone-status-3');
+    if (p3Status) p3Status.textContent = ui.batteryOnline.replace('{val}', '95');
+    const p4Status = document.getElementById('phone-status-4');
+    if (p4Status) p4Status.textContent = ui.batteryOnline.replace('{val}', '90');
+
+    // Header ứng dụng giả lập
+    const fbHeaderSpan = document.querySelector('.app-facebook .app-header span');
+    if (fbHeaderSpan) fbHeaderSpan.textContent = ui.home;
+
+    const ttFollowSpan = document.querySelector('.app-tiktok .app-header span:nth-child(1)');
+    if (ttFollowSpan) ttFollowSpan.textContent = ui.following;
+    const ttForYouSpan = document.querySelector('.app-tiktok .app-header span:nth-child(2)');
+    if (ttForYouSpan) ttForYouSpan.textContent = ui.forYou;
+
+    const ttDescSpan = document.querySelector('.app-tiktok .tiktok-desc .desc-line');
+    if (ttDescSpan) ttDescSpan.textContent = ui.autoAccount;
+
+    // Lớp phủ trạng thái giả lập
+    document.querySelectorAll('.file-transfer-overlay span').forEach(el => el.textContent = ui.transferringFile);
+    document.querySelectorAll('.apk-progress-overlay span').forEach(el => el.textContent = ui.installingApp);
+    document.querySelectorAll('.reboot-overlay span').forEach(el => el.textContent = ui.rebooting);
+
+    // Features Section
+    const featuresBadgeEl = document.querySelector('.features .section-badge');
+    if (featuresBadgeEl) featuresBadgeEl.textContent = ui.featuresBadge;
+    const featuresTitleEl = document.querySelector('.features .section-title');
+    if (featuresTitleEl) featuresTitleEl.textContent = ui.featuresTitle;
+    const featuresSubtitleEl = document.querySelector('.features .section-subtitle');
+    if (featuresSubtitleEl) featuresSubtitleEl.textContent = ui.featuresSubtitle;
+
+    // Gallery Section
+    const galleryBadgeEl = document.querySelector('.gallery .section-badge');
+    if (galleryBadgeEl) galleryBadgeEl.textContent = ui.galleryBadge;
+    const galleryTitleEl = document.querySelector('.gallery .section-title');
+    if (galleryTitleEl) galleryTitleEl.textContent = ui.galleryTitle;
+    const gallerySubtitleEl = document.querySelector('.gallery .section-subtitle');
+    if (gallerySubtitleEl) gallerySubtitleEl.textContent = ui.gallerySubtitle;
+
+    // Pricing Section
+    const pricingBadgeEl = document.getElementById('pricing-badge');
+    if (pricingBadgeEl) pricingBadgeEl.textContent = ui.pricingBadge;
+    const billingMonthlyEl = document.getElementById('billing-monthly');
+    if (billingMonthlyEl) billingMonthlyEl.textContent = ui.billingMonthly;
+
+    // FAQ Section
+    const faqBadgeEl = document.querySelector('.faqs .section-badge');
+    if (faqBadgeEl) faqBadgeEl.textContent = ui.faqBadge;
+    const faqTitleEl = document.querySelector('.faqs .section-title');
+    if (faqTitleEl) faqTitleEl.textContent = ui.faqTitle;
+    const faqSubtitleEl = document.querySelector('.faqs .section-subtitle');
+    if (faqSubtitleEl) faqSubtitleEl.textContent = ui.faqSubtitle;
+
+    // Footer titles
+    const footerNavTitleEl = document.querySelector('.footer-nav .footer-title');
+    if (footerNavTitleEl) footerNavTitleEl.textContent = ui.exploreTitle;
+    const footerInfoTitleEl = document.querySelector('.footer-info .footer-title');
+    if (footerInfoTitleEl) footerInfoTitleEl.textContent = ui.contactTitle;
+  };
+
+  updateStaticTranslations();
+
   // ==========================================
   // 2. RENDER DỮ LIỆU HEADER & NAVIGATION
   // ==========================================
@@ -45,13 +194,27 @@ document.addEventListener("DOMContentLoaded", () => {
       </div>
       ${navLinksHtml}
       <a href="#pricing" class="btn btn-primary" style="margin-top: 20px; width: 80%;">${data.hero.ctaSecondary.text}</a>
+      
+      <div class="mobile-lang-selector">
+        <div style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 10px;">Ngôn ngữ / Language</div>
+        <div class="mobile-lang-options">
+          <a href="#" data-lang="vi" class="mobile-lang-opt ${activeLang === 'vi' ? 'active' : ''}">🇻🇳 Tiếng Việt</a>
+          <a href="#" data-lang="en" class="mobile-lang-opt ${activeLang === 'en' ? 'active' : ''}">🇺🇸 English</a>
+          <a href="#" data-lang="zh" class="mobile-lang-opt ${activeLang === 'zh' ? 'active' : ''}">🇨🇳 中文</a>
+          <a href="#" data-lang="ko" class="mobile-lang-opt ${activeLang === 'ko' ? 'active' : ''}">🇰🇷 한국어</a>
+          <a href="#" data-lang="th" class="mobile-lang-opt ${activeLang === 'th' ? 'active' : ''}">🇹🇭 ไทย</a>
+          <a href="#" data-lang="id" class="mobile-lang-opt ${activeLang === 'id' ? 'active' : ''}">🇮🇩 Indo</a>
+          <a href="#" data-lang="ru" class="mobile-lang-opt ${activeLang === 'ru' ? 'active' : ''}">🇷🇺 Русский</a>
+          <a href="#" data-lang="hi" class="mobile-lang-opt ${activeLang === 'hi' ? 'active' : ''}">🇮🇳 हिन्दी</a>
+        </div>
+      </div>
     `;
   }
 
   // Header CTA
   const headerCta = document.getElementById("header-cta");
   if (headerCta) {
-    headerCta.textContent = "Nhận Bản Dùng Thử";
+    headerCta.textContent = data.hero.ctaPrimary.text;
     headerCta.href = data.hero.ctaPrimary.link;
   }
 
@@ -415,15 +578,36 @@ document.addEventListener("DOMContentLoaded", () => {
       let priceDisplay = plan.price;
       let termDisplay = plan.term;
 
-      if (isYearly && plan.price !== "Liên hệ") {
-        // Chuyển "299.000đ" sang số 299000
-        const numericPrice = parseInt(plan.price.replace(/\D/g, ""));
-        // Giảm 20% và làm tròn
-        const discountedPricePerMonth = Math.round((numericPrice * 0.8) / 1000) * 1000;
+      if (isYearly && plan.price !== "Liên hệ" && plan.price !== "Contact Us" && plan.price !== "联系我们" && plan.price !== "문의 요망" && plan.price !== "ติดต่อเรา" && plan.price !== "Hubungi Kami" && plan.price !== "Контакты" && plan.price !== "संपर्क करें") {
+        const numericPrice = parseInt(plan.price.replace(/[^\d]/g, ""));
+        const discounted = numericPrice * 0.8;
         
-        // Format hiển thị: "239.000đ"
-        priceDisplay = discountedPricePerMonth.toLocaleString("vi-VN") + "đ";
-        termDisplay = " / tháng (trả năm)";
+        if (plan.price.includes("$")) {
+          priceDisplay = "$" + discounted.toFixed(1).replace(".0", "");
+          termDisplay = " / month (billed yearly)";
+        } else if (plan.price.includes("₹")) {
+          priceDisplay = "₹" + Math.round(discounted).toLocaleString("en-IN");
+          termDisplay = " / month (billed yearly)";
+        } else if (plan.price.includes("₩")) {
+          priceDisplay = "₩" + Math.round(discounted).toLocaleString("ko-KR");
+          termDisplay = " / 월 (연간 결제)";
+        } else if (plan.price.includes("元")) {
+          priceDisplay = Math.round(discounted) + "元";
+          termDisplay = " / 月 (按年计费)";
+        } else if (plan.price.includes("руб.")) {
+          priceDisplay = Math.round(discounted).toLocaleString("ru-RU") + " руб.";
+          termDisplay = " / мес. (при годовой оплате)";
+        } else if (plan.price.includes("บาท")) {
+          priceDisplay = Math.round(discounted).toLocaleString("th-TH") + " บาท";
+          termDisplay = " / เดือน (ชำระรายปี)";
+        } else if (plan.price.includes("Rp")) {
+          priceDisplay = "Rp " + Math.round(discounted).toLocaleString("id-ID");
+          termDisplay = " / bulan (tagihan tahunan)";
+        } else {
+          const discountedPricePerMonth = Math.round((numericPrice * 0.8) / 1000) * 1000;
+          priceDisplay = discountedPricePerMonth.toLocaleString("vi-VN") + "đ";
+          termDisplay = " / tháng (trả năm)";
+        }
       }
 
       return `
@@ -618,4 +802,48 @@ document.addEventListener("DOMContentLoaded", () => {
   
   // Chạy ngay lần đầu tiên đề phòng các phần tử đã nằm sẵn trong khung nhìn
   revealOnScroll();
+
+  // ==========================================
+  // 12. XỬ LÝ ĐA NGÔN NGỮ (LANGUAGE SELECTOR EVENT HANDLERS)
+  // ==========================================
+  const langBtn = document.getElementById("lang-btn");
+  const langDropdown = document.getElementById("lang-dropdown");
+
+  if (langBtn && langDropdown) {
+    // Toggle dropdown khi bấm vào nút
+    langBtn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const isExpanded = langBtn.getAttribute("aria-expanded") === "true";
+      langBtn.setAttribute("aria-expanded", !isExpanded);
+      langDropdown.classList.toggle("show");
+    });
+
+    // Đóng dropdown khi bấm bên ngoài
+    document.addEventListener("click", () => {
+      langBtn.setAttribute("aria-expanded", "false");
+      langDropdown.classList.remove("show");
+    });
+
+    // Sự kiện click chuyển ngôn ngữ trong dropdown
+    const langOpts = langDropdown.querySelectorAll(".lang-option");
+    langOpts.forEach(opt => {
+      opt.addEventListener("click", (e) => {
+        e.preventDefault();
+        const selectedLang = opt.getAttribute("data-lang");
+        localStorage.setItem('preferredLanguage', selectedLang);
+        window.location.reload();
+      });
+    });
+  }
+
+  // Sự kiện click chuyển ngôn ngữ cho di động
+  document.addEventListener("click", (e) => {
+    const mobileOpt = e.target.closest(".mobile-lang-opt");
+    if (mobileOpt) {
+      e.preventDefault();
+      const selectedLang = mobileOpt.getAttribute("data-lang");
+      localStorage.setItem('preferredLanguage', selectedLang);
+      window.location.reload();
+    }
+  });
 });

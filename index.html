@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DroidVision Pro - Điều khiển & Quản lý điện thoại Android tập trung</title>
+  <meta name="description" content="Hệ thống điều khiển điện thoại Android tập trung độ trễ thấp dưới 15ms. Tự động hóa kịch bản, nuôi tài khoản và đổi proxy mạng độc lập. Tối ưu cho MMO và thử nghiệm.">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- --- HEADER / NAVIGATION --- -->
+  <header class="header" id="header">
+    <div class="container">
+      <a href="#" class="logo" id="header-logo">
+        <!-- Động: Tải từ data.js -->
+      </a>
+      
+      <nav class="nav-links" id="header-nav-links">
+        <!-- Động: Tải các link từ data.js -->
+      </nav>
+
+      <div class="nav-cta">
+        <a href="#pricing" class="btn btn-secondary" id="header-cta">
+          <!-- Động: CTA từ data.js -->
+        </a>
+      </div>
+
+      <button class="menu-btn" id="menu-open-btn" aria-label="Open mobile menu">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- --- MOBILE NAVIGATION OVERLAY --- -->
+  <div class="mobile-nav" id="mobile-nav">
+    <!-- Động: Copy link điều hướng vào đây qua JS -->
+  </div>
+
+  <!-- --- HERO SECTION WITH INTERACTIVE SIMULATOR --- -->
+  <section class="hero" id="hero">
+    <!-- Khối cầu màu sắc nền mờ nhạt (Ambient Pastel Orbs) -->
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge" id="hero-badge-box">
+            <!-- Động: Badge của Hero -->
+          </div>
+          <h1 class="hero-title" id="hero-title">
+            <!-- Động: Tiêu đề -->
+          </h1>
+          <p class="hero-subtitle" id="hero-subtitle">
+            <!-- Động: Phụ đề -->
+          </p>
+          
+          <ul class="hero-list-features" id="hero-features-list">
+            <!-- Động: Các tính năng nhỏ của Hero -->
+          </ul>
+
+          <div class="hero-ctas">
+            <a href="#" class="btn btn-primary" id="hero-btn-primary"><!-- Động --></a>
+            <a href="#" class="btn btn-secondary" id="hero-btn-secondary"><!-- Động --></a>
+          </div>
+        </div>
+
+        <!-- BỘ GIẢ LẬP TƯƠNG TÁC (INTERACTIVE SIMULATOR) -->
+        <div class="simulator-wrapper">
+          <div class="simulator-window">
+            <!-- Header cửa sổ Mac OS -->
+            <div class="sim-header">
+              <div class="sim-dots">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+              </div>
+              <div class="sim-title">DroidVision Pro - Điều khiển trung tâm (Đang chạy...)</div>
+              <div class="sim-status">
+                <span class="pulse-indicator"></span>
+                <span id="sim-active-count">9 Online</span>
+              </div>
+            </div>
+            
+            <div class="sim-body">
+              <!-- Bảng điều khiển tác vụ -->
+              <div class="sim-sidebar">
+                <div class="sim-sidebar-title">BẢNG ĐIỀU KHIỂN</div>
+                <button class="sim-action-btn active" id="sim-btn-sync">
+                  <i class="fas fa-sync"></i>
+                  <span>Đồng bộ Click</span>
+                </button>
+                <button class="sim-action-btn" id="sim-btn-file">
+                  <i class="fas fa-share-square"></i>
+                  <span>Truyền tệp tin</span>
+                </button>
+                <button class="sim-action-btn" id="sim-btn-apk">
+                  <i class="fas fa-file-download"></i>
+                  <span>Cài đặt APK</span>
+                </button>
+                <button class="sim-action-btn" id="sim-btn-reboot">
+                  <i class="fas fa-power-off"></i>
+                  <span>Khởi động lại</span>
+                </button>
+
+                <div class="sim-hud-stats">
+                  <div class="hud-stat-item">
+                    <span class="label">Độ trễ truyền:</span>
+                    <span class="val text-green" id="hud-ping-val">12ms</span>
+                  </div>
+                  <div class="hud-stat-item">
+                    <span class="label">Tốc độ khung:</span>
+                    <span class="val text-blue">60 FPS</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Lưới màn hình các điện thoại -->
+              <div class="sim-phones-grid">
+                <!-- Phone #1 -->
+                <div class="sim-phone-card" id="sim-phone-1">
+                  <div class="phone-info-bar">
+                    <span class="phone-name">Device #1</span>
+                    <span class="phone-status" id="phone-status-1">Pin: 92% | Online</span>
+                  </div>
+                  <div class="phone-screen-container">
+                    <div class="phone-notch"></div>
+                    <div class="phone-screen app-facebook">
+                      <div class="app-header">
+                        <i class="fab fa-facebook"></i>
+                        <span>Trang chủ</span>
+                      </div>
+                      <div class="app-body">
+                        <div class="post-card">
+                          <div class="avatar"></div>
+                          <div class="post-lines">
+                            <span class="line short"></span>
+                            <span class="line long"></span>
+                          </div>
+                        </div>
+                        <div class="post-card">
+                          <div class="avatar"></div>
+                          <div class="post-lines">
+                            <span class="line short"></span>
+                            <span class="line long"></span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="app-footer">
+                        <i class="fas fa-home text-blue"></i>
+                        <i class="fas fa-user-friends"></i>
+                        <i class="fas fa-bell"></i>
+                      </div>
+                    </div>
+                    <!-- Các lớp Overlay hoạt ảnh giả lập -->
+                    <div class="click-ripple"></div>
+                    <div class="file-transfer-overlay">
+                      <i class="fas fa-cloud-download-alt fa-bounce"></i>
+                      <span>Truyền file...</span>
+                      <div class="progress-bar"><div class="progress-fill"></div></div>
+                    </div>
+                    <div class="apk-progress-overlay">
+                      <span>Cài đặt ứng dụng...</span>
+                      <div class="progress-bar"><div class="progress-fill"></div></div>
+                    </div>
+                    <div class="reboot-overlay">
+                      <i class="fas fa-mobile-alt"></i>
+                      <span>Khởi động...</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Phone #2 -->
+                <div class="sim-phone-card" id="sim-phone-2">
+                  <div class="phone-info-bar">
+                    <span class="phone-name">Device #2</span>
+                    <span class="phone-status" id="phone-status-2">Pin: 88% | Online</span>
+                  </div>
+                  <div class="phone-screen-container">
+                    <div class="phone-notch"></div>
+                    <div class="phone-screen app-tiktok">
+                      <div class="app-header">
+                        <span>Đang Follow</span>
+                        <span class="active">Dành Cho Bạn</span>
+                      </div>
+                      <div class="app-body tiktok-video">
+                        <i class="fab fa-tiktok tiktok-logo"></i>
+                        <div class="tiktok-actions">
+                          <div class="action-circle text-red"><i class="fas fa-heart"></i></div>
+                          <div class="action-circle"><i class="fas fa-comment"></i></div>
+                          <div class="action-circle"><i class="fas fa-share"></i></div>
+                        </div>
+                        <div class="tiktok-desc">
+                          <span class="user">@mmo_master</span>
+                          <span class="desc-line">Nuôi tài khoản tự động...</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Các lớp Overlay hoạt ảnh giả lập -->
+                    <div class="click-ripple"></div>
+                    <div class="file-transfer-overlay">
+                      <i class="fas fa-cloud-download-alt fa-bounce"></i>
+                      <span>Truyền file...</span>
+                      <div class="progress-bar"><div class="progress-fill"></div></div>
+                    </div>
+                    <div class="apk-progress-overlay">
+                      <span>Cài đặt ứng dụng...</span>
+                      <div class="progress-bar"><div class="progress-fill"></div></div>
+                    </div>
+                    <div class="reboot-overlay">
+                      <i class="fas fa-mobile-alt"></i>
+                      <span>Khởi động...</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Phone #3 -->
+                <div class="sim-phone-card" id="sim-phone-3">
+                  <div class="phone-info-bar">
+                    <span class="phone-name">Device #3</span>
+                    <span class="phone-status" id="phone-status-3">Pin: 95% | Online</span>
+                  </div>
+                  <div class="phone-screen-container">
+                    <div class="phone-notch"></div>
+                    <div class="phone-screen app-shopee">
+                      <div class="app-header bg-orange text-white">
+                        <i class="fas fa-shopping-bag"></i>
+                        <span>Shopee Mall</span>
+                      </div>
+                      <div class="app-body">
+                        <div class="shopee-search"></div>
+                        <div class="shopee-products-grid">
+                          <div class="shopee-item"></div>
+                          <div class="shopee-item"></div>
+                        </div>
+                      </div>
+                      <div class="app-footer">
+                        <i class="fas fa-store text-orange"></i>
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-user"></i>
+                      </div>
+                    </div>
+                    <!-- Các lớp Overlay hoạt ảnh giả lập -->
+                    <div class="click-ripple"></div>
+                    <div class="file-transfer-overlay">
+                      <i class="fas fa-cloud-download-alt fa-bounce"></i>
+                      <span>Truyền file...</span>
+                      <div class="progress-bar"><div class="progress-fill"></div></div>
+                    </div>
+                    <div class="apk-progress-overlay">
+                      <span>Cài đặt ứng dụng...</span>
+                      <div class="progress-bar"><div class="progress-fill"></div></div>
+                    </div>
+                    <div class="reboot-overlay">
+                      <i class="fas fa-mobile-alt"></i>
+                      <span>Khởi động...</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Phone #4 -->
+                <div class="sim-phone-card" id="sim-phone-4">
+                  <div class="phone-info-bar">
+                    <span class="phone-name">Device #4</span>
+                    <span class="phone-status" id="phone-status-4">Pin: 90% | Online</span>
+                  </div>
+                  <div class="phone-screen-container">
+                    <div class="phone-notch"></div>
+                    <div class="phone-screen app-chrome">
+                      <div class="app-header bg-light">
+                        <div class="chrome-search-bar">routermmo.com</div>
+                      </div>
+                      <div class="app-body">
+                        <div class="chrome-web-page">
+                          <div class="web-banner"></div>
+                          <div class="web-line"></div>
+                          <div class="web-line"></div>
+                          <div class="web-line"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Các lớp Overlay hoạt ảnh giả lập -->
+                    <div class="click-ripple"></div>
+                    <div class="file-transfer-overlay">
+                      <i class="fas fa-cloud-download-alt fa-bounce"></i>
+                      <span>Truyền file...</span>
+                      <div class="progress-bar"><div class="progress-fill"></div></div>
+                    </div>
+                    <div class="apk-progress-overlay">
+                      <span>Cài đặt ứng dụng...</span>
+                      <div class="progress-bar"><div class="progress-fill"></div></div>
+                    </div>
+                    <div class="reboot-overlay">
+                      <i class="fas fa-mobile-alt"></i>
+                      <span>Khởi động...</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- WORKFLOW SECTION --- -->
+  <section class="workflow" id="workflow">
+    <div class="container">
+      <h2 class="section-title text-center" id="workflow-title" style="text-align: center; margin-bottom: 40px;"><!-- Động --></h2>
+      <div class="workflow-steps" id="workflow-steps-container">
+        <!-- Động: Các bước hoạt động từ data.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- --- FEATURES SECTION --- -->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-badge">Tính Năng Vượt Trội</span>
+        <h2 class="section-title">Giải PháP Điều Khiển Toàn Diện</h2>
+        <p class="section-subtitle">Tích hợp đầy đủ các công cụ chuyên nghiệp để tự động hóa công việc trên điện thoại của bạn.</p>
+      </div>
+
+      <div class="features-interactive reveal">
+        <!-- Bên trái: Các tab bấm chọn tính năng -->
+        <div class="features-tabs" id="features-tabs-container">
+          <!-- Động: Các tab tính năng từ data.js -->
+        </div>
+
+        <!-- Bên phải: Khu vực hiển thị chi tiết tính năng đang chọn -->
+        <div class="feature-showcase-panel" id="feature-showcase-panel">
+          <!-- Động: Tải nội dung chi tiết tính năng -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- GALLERY SECTION --- -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-badge">Giao Diện Thực Tế</span>
+        <h2 class="section-title">Trực Quan & Dễ Sử Dụng</h2>
+        <p class="section-subtitle">Hình ảnh chụp thực tế màn hình quản trị và cách thức hoạt động của phần mềm.</p>
+      </div>
+
+      <div class="gallery-grid reveal" id="gallery-container">
+        <!-- Động: Tải hình ảnh từ data.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- --- PRICING SECTION --- -->
+  <section class="pricing" id="pricing">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-badge" id="pricing-badge">Bảng Giá</span>
+        <h2 class="section-title" id="pricing-title">Lựa Chọn Gói Dịch Vụ</h2>
+        <p class="section-subtitle" id="pricing-subtitle">Phù hợp từ quy mô cá nhân nhỏ lẻ cho tới các studio hàng trăm máy.</p>
+        
+        <!-- Nút gạt chuyển đổi chu kỳ thanh toán -->
+        <div class="pricing-toggle-wrapper">
+          <span class="toggle-label active" id="billing-monthly">Thanh toán theo tháng</span>
+          <label class="toggle-switch">
+            <input type="checkbox" id="billing-toggle">
+            <span class="toggle-slider"></span>
+          </label>
+          <span class="toggle-label" id="billing-yearly">
+            Thanh toán theo năm 
+            <span class="discount-badge">Giảm 20%</span>
+          </span>
+        </div>
+      </div>
+
+      <div class="pricing-grid reveal" id="pricing-container">
+        <!-- Động: Tải các gói giá từ data.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- --- FAQS SECTION --- -->
+  <section class="faqs" id="faqs">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-badge">Hỏi Đáp Nhanh</span>
+        <h2 class="section-title">Giải Đáp Thắc Mắc</h2>
+        <p class="section-subtitle">Những câu hỏi phổ biến nhất của khách hàng khi triển khai phần mềm.</p>
+      </div>
+
+      <div class="faqs-list reveal" id="faqs-container">
+        <!-- Động: Các accordion câu hỏi từ data.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- --- FOOTER --- -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-about">
+          <div class="logo" id="footer-logo">
+            <!-- Động -->
+          </div>
+          <p class="footer-about-text" id="footer-about-text">
+            <!-- Động -->
+          </p>
+          <div class="footer-socials" id="footer-socials">
+            <!-- Động -->
+          </div>
+        </div>
+
+        <div class="footer-nav">
+          <h4 class="footer-title">Khám Phá</h4>
+          <ul class="footer-links" id="footer-links-container">
+            <!-- Động -->
+          </ul>
+        </div>
+
+        <div class="footer-info">
+          <h4 class="footer-title">Liên Hệ Trợ Giúp</h4>
+          <div class="footer-contact" id="footer-contact-container">
+            <!-- Động -->
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p id="footer-copyright"></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Dữ liệu JS -->
+  <script src="data.js"></script>
+  <!-- Logic JS chính -->
+  <script src="main.js"></script>
+</body>
+</html>

@@ -18,13 +18,13 @@ window.productLanguages = {
       ],
       ctaPrimary: {
         text: "Tải Bản Dùng Thử",
-        link: "https://www.dropbox.com/scl/fi/a3k0e10j7g1u84eavwb30/DeviceBridge-Setup-1.0.14.exe?rlkey=bsppqw2lk2ggjwpga2ovvklsa&st=s2fcqchd&dl=1"
+        link: "https://www.dropbox.com/scl/fi/vgp24gsrtj9uylx7tuq61/DeviceBridge-Setup-1.0.15.exe?rlkey=zos6gbmk08chk0p0goz7x9sih&st=jn94zx2y&dl=1"
       },
       ctaSecondary: {
         text: "Xem Bảng Giá",
         link: "#pricing"
       },
-      image: "images/hero_phone_grid.png"
+      image: "images/home_polished.png"
     },
     workflow: {
       title: "Vận hành phần mềm với 3 bước đơn giản",
@@ -57,7 +57,7 @@ window.productLanguages = {
         description: "Hỗ trợ truyền hình ảnh thời gian thực chất lượng cao từ thiết bị lên PC với tốc độ lên đến 60 FPS, độ trễ gần như bằng không.",
         detailTitle: "Công nghệ truyền tải thông minh",
         detailDesc: "Sử dụng engine tối ưu phần cứng giúp giảm thiểu băng thông mạng LAN và RAM máy tính. Bạn có thể mở đồng thời hàng chục tab màn hình mà máy tính vẫn mượt mà.",
-        image: "images/hero_phone_grid.png"
+        image: "images/home_polished.png"
       },
       {
         id: "bulk-file",
@@ -84,14 +84,14 @@ window.productLanguages = {
         description: "Nhấp chuột, gõ phím từ máy chủ, tất cả điện thoại con sẽ thực thi cùng lúc. Dọn dẹp rác bộ nhớ chỉ bằng 1 nút bấm.",
         detailTitle: "Đồng bộ hóa 100% thời gian thực",
         detailDesc: "Khởi động ứng dụng đồng loạt, gõ văn bản từ bàn phím PC tự động phân phối xuống các điện thoại. Tiết kiệm 95% thời gian so với làm thủ công từng máy.",
-        image: "images/hero_phone_grid.png"
+        image: "images/home_polished.png"
       }
     ],
     gallery: [
       {
         title: "Hệ thống điều khiển trung tâm",
         desc: "Giao diện quản lý lưới màn hình chuyên nghiệp trên PC.",
-        src: "images/hero_phone_grid.png"
+        src: "images/home_polished.png"
       },
       {
         title: "Truyền tệp & cài APK hàng loạt",
@@ -259,13 +259,13 @@ window.productLanguages = {
       ],
       ctaPrimary: {
         text: "Download Trial",
-        link: "https://www.dropbox.com/scl/fi/a3k0e10j7g1u84eavwb30/DeviceBridge-Setup-1.0.14.exe?rlkey=bsppqw2lk2ggjwpga2ovvklsa&st=s2fcqchd&dl=1"
+        link: "https://www.dropbox.com/scl/fi/vgp24gsrtj9uylx7tuq61/DeviceBridge-Setup-1.0.15.exe?rlkey=zos6gbmk08chk0p0goz7x9sih&st=jn94zx2y&dl=1"
       },
       ctaSecondary: {
         text: "View Pricing",
         link: "#pricing"
       },
-      image: "images/hero_phone_grid.png"
+      image: "images/home_polished.png"
     },
     workflow: {
       title: "Operate the software in 3 simple steps",
@@ -298,7 +298,7 @@ window.productLanguages = {
         description: "Supports high-quality real-time screen streaming to PC up to 60 FPS, with near-zero latency.",
         detailTitle: "Smart Streaming Technology",
         detailDesc: "Uses a hardware-optimized engine to minimize LAN bandwidth and PC RAM. Open dozens of device screens simultaneously while keeping your PC running smooth.",
-        image: "images/hero_phone_grid.png"
+        image: "images/home_polished.png"
       },
       {
         id: "bulk-file",
@@ -325,14 +325,14 @@ window.productLanguages = {
         description: "Click, scroll, and type on the master PC and all sub-phones execute instantly. Clear memory cache with one click.",
         detailTitle: "100% Real-time Synchronization",
         detailDesc: "Launch apps simultaneously, type text from your PC keyboard and distribute it to all phones. Save 95% of your time compared to manual operations.",
-        image: "images/hero_phone_grid.png"
+        image: "images/home_polished.png"
       }
     ],
     gallery: [
       {
         title: "Centralized Control System",
         desc: "Professional screen grid management interface on PC.",
-        src: "images/hero_phone_grid.png"
+        src: "images/home_polished.png"
       },
       {
         title: "Bulk File & APK Transfer",
@@ -500,13 +500,13 @@ window.productLanguages = {
       ],
       ctaPrimary: {
         text: "下载免费试用版",
-        link: "https://www.dropbox.com/scl/fi/a3k0e10j7g1u84eavwb30/DeviceBridge-Setup-1.0.14.exe?rlkey=bsppqw2lk2ggjwpga2ovvklsa&st=s2fcqchd&dl=1"
+        link: "https://www.dropbox.com/scl/fi/vgp24gsrtj9uylx7tuq61/DeviceBridge-Setup-1.0.15.exe?rlkey=zos6gbmk08chk0p0goz7x9sih&st=jn94zx2y&dl=1"
       },
       ctaSecondary: {
         text: "查看价格",
         link: "#pricing"
       },
-      image: "images/hero_phone_grid.png"
+      image: "images/home_polished.png"
     },
     workflow: {
       title: "只需 3 个简单步骤即可运行软件",
@@ -539,7 +539,7 @@ window.productLanguages = {
         description: "支持将高质量的实时屏幕画面传输到 PC，最高支持 60 FPS，延迟几近于零。",
         detailTitle: "智能传输技术",
         detailDesc: "采用硬件优化引擎，最大限度地减少局域网带宽和电脑内存占用。可同时打开数十个设备屏幕，电脑依然运行流畅。",
-        image: "images/hero_phone_grid.png"
+        image: "images/home_polished.png"
       },
       {
         id: "bulk-file",
@@ -566,14 +566,14 @@ window.productLanguages = {
         description: "在主控 PC 上点击、滚动和输入，所有子手机立即执行。一键清理内存缓存。",
         detailTitle: "100% 实时同步",
         detailDesc: "同时启动应用程序，从 PC 键盘输入文本并自动分发到所有手机。与手动操作相比节省 95% 的时间。",
-        image: "images/hero_phone_grid.png"
+        image: "images/home_polished.png"
       }
     ],
     gallery: [
       {
         title: "集中控制系统",
         desc: "PC 端专业的屏幕网格管理界面。",
-        src: "images/hero_phone_grid.png"
+        src: "images/home_polished.png"
       },
       {
         title: "批量文件与 APK 传输",
@@ -741,13 +741,13 @@ window.productLanguages = {
       ],
       ctaPrimary: {
         text: "무료 체험판 다운로드",
-        link: "https://www.dropbox.com/scl/fi/a3k0e10j7g1u84eavwb30/DeviceBridge-Setup-1.0.14.exe?rlkey=bsppqw2lk2ggjwpga2ovvklsa&st=s2fcqchd&dl=1"
+        link: "https://www.dropbox.com/scl/fi/vgp24gsrtj9uylx7tuq61/DeviceBridge-Setup-1.0.15.exe?rlkey=zos6gbmk08chk0p0goz7x9sih&st=jn94zx2y&dl=1"
       },
       ctaSecondary: {
         text: "요금제 보기",
         link: "#pricing"
       },
-      image: "images/hero_phone_grid.png"
+      image: "images/home_polished.png"
     },
     workflow: {
       title: "3가지 간단한 단계로 소프트웨어 작동",
@@ -780,7 +780,7 @@ window.productLanguages = {
         description: "지연 시간이 거의 없는 최대 60 FPS의 고품질 실시간 화면 스트리밍을 PC로 지원합니다.",
         detailTitle: "스마트 스트리밍 기술",
         detailDesc: "하드웨어 최적화 엔진을 사용하여 LAN 대역폭과 PC RAM 사용량을 최소화합니다. PC 성능 저하 없이 수십 개의 기기 화면을 동시에 띄울 수 있습니다.",
-        image: "images/hero_phone_grid.png"
+        image: "images/home_polished.png"
       },
       {
         id: "bulk-file",
@@ -807,14 +807,14 @@ window.productLanguages = {
         description: "마스터 PC에서 클릭, 스크롤, 타이핑을 하면 모든 하위 전화기에서 즉시 실행됩니다. 클릭 한 번으로 메모리 캐시를 정리하세요.",
         detailTitle: "100% 실시간 동기화",
         detailDesc: "앱을 동시에 실행하고 PC 키보드로 텍스트를 입력하여 모든 기기에 전송합니다. 수동 작업 대비 95%의 시간을 절약할 수 있습니다.",
-        image: "images/hero_phone_grid.png"
+        image: "images/home_polished.png"
       }
     ],
     gallery: [
       {
         title: "통합 제어 시스템",
         desc: "PC의 전문적인 화면 그리드 관리 인터페이스.",
-        src: "images/hero_phone_grid.png"
+        src: "images/home_polished.png"
       },
       {
         title: "대량 파일 및 APK 전송",
@@ -982,13 +982,13 @@ window.productLanguages = {
       ],
       ctaPrimary: {
         text: "ดาวน์โหลดรุ่นทดลองใช้งาน",
-        link: "https://www.dropbox.com/scl/fi/a3k0e10j7g1u84eavwb30/DeviceBridge-Setup-1.0.14.exe?rlkey=bsppqw2lk2ggjwpga2ovvklsa&st=s2fcqchd&dl=1"
+        link: "https://www.dropbox.com/scl/fi/vgp24gsrtj9uylx7tuq61/DeviceBridge-Setup-1.0.15.exe?rlkey=zos6gbmk08chk0p0goz7x9sih&st=jn94zx2y&dl=1"
       },
       ctaSecondary: {
         text: "ดูราคา",
         link: "#pricing"
       },
-      image: "images/hero_phone_grid.png"
+      image: "images/home_polished.png"
     },
     workflow: {
       title: "ใช้งานซอฟต์แวร์ด้วย 3 ขั้นตอนง่ายๆ",
@@ -1021,7 +1021,7 @@ window.productLanguages = {
         description: "รองรับการสตรีมหน้าจอแบบเรียลไทม์คุณภาพสูงไปยังพีซีสูงสุด 60 FPS ด้วยความหน่วงเกือบเป็นศูนย์",
         detailTitle: "เทคโนโลยีการสตรีมมิ่งอัจฉริยะ",
         detailDesc: "ใช้เครื่องยนต์ปรับแต่งฮาร์ดแวร์เพื่อลดการใช้แบนด์วิดท์ LAN และ RAM ของคอมพิวเตอร์ เปิดหน้าจออุปกรณ์ได้หลายสิบเครื่องพร้อมกันในขณะที่พีซีของคุณทำงานอย่างลื่นไหล",
-        image: "images/hero_phone_grid.png"
+        image: "images/home_polished.png"
       },
       {
         id: "bulk-file",
@@ -1048,14 +1048,14 @@ window.productLanguages = {
         description: "คลิก เลื่อน และพิมพ์บนพีซีหลักแล้วเครื่องย่อยทั้งหมดจะทำงานตามทันที ล้างแคชหน่วยความจำด้วยการคลิกเพียงครั้งเดียว",
         detailTitle: "การซิงโครไนซ์ 100% แบบเรียลไทม์",
         detailDesc: "เปิดแอปพลิเคชันพร้อมกัน พิมพ์ข้อความจากคีย์บอร์ดพีซีและกระจายไปยังโทรศัพท์ทั้งหมดโดยอัตโนมัติ ประหยัดเวลาได้ถึง 95% เมื่อเทียบกับการทำงานด้วยตนเอง",
-        image: "images/hero_phone_grid.png"
+        image: "images/home_polished.png"
       }
     ],
     gallery: [
       {
         title: "ระบบควบคุมแบบรวมศูนย์",
         desc: "อินเทอร์เฟซการจัดการตารางหน้าจอระดับมืออาชีพบนพีซี",
-        src: "images/hero_phone_grid.png"
+        src: "images/home_polished.png"
       },
       {
         title: "การส่งไฟล์และ APK จำนวนมาก",
@@ -1223,13 +1223,13 @@ window.productLanguages = {
       ],
       ctaPrimary: {
         text: "Unduh Uji Coba",
-        link: "https://www.dropbox.com/scl/fi/a3k0e10j7g1u84eavwb30/DeviceBridge-Setup-1.0.14.exe?rlkey=bsppqw2lk2ggjwpga2ovvklsa&st=s2fcqchd&dl=1"
+        link: "https://www.dropbox.com/scl/fi/vgp24gsrtj9uylx7tuq61/DeviceBridge-Setup-1.0.15.exe?rlkey=zos6gbmk08chk0p0goz7x9sih&st=jn94zx2y&dl=1"
       },
       ctaSecondary: {
         text: "Lihat Harga",
         link: "#pricing"
       },
-      image: "images/hero_phone_grid.png"
+      image: "images/home_polished.png"
     },
     workflow: {
       title: "Operasikan perangkat lunak dengan 3 langkah mudah",
@@ -1262,7 +1262,7 @@ window.productLanguages = {
         description: "Mendukung transmisi layar real-time berkualitas tinggi ke PC hingga 60 FPS, dengan latensi hampir nol.",
         detailTitle: "Teknologi Streaming Pintar",
         detailDesc: "Menggunakan mesin yang dioptimalkan perangkat keras untuk meminimalkan bandwidth LAN dan RAM PC. Anda dapat membuka puluhan layar perangkat secara bersamaan sementara PC tetap berjalan lancar.",
-        image: "images/hero_phone_grid.png"
+        image: "images/home_polished.png"
       },
       {
         id: "bulk-file",
@@ -1289,14 +1289,14 @@ window.productLanguages = {
         description: "Klik, gulir, dan ketik di PC master dan semua HP anak akan mengeksekusi secara instan. Bersihkan cache memori dengan satu klik.",
         detailTitle: "Sinkronisasi 100% Real-time",
         detailDesc: "Buka aplikasi secara bersamaan, ketik teks dari keyboard PC dan distribusikan ke semua HP secara otomatis. Menghemat waktu 95% dibandingkan operasi manual.",
-        image: "images/hero_phone_grid.png"
+        image: "images/home_polished.png"
       }
     ],
     gallery: [
       {
         title: "Sistem Kontrol Terpusat",
         desc: "Tampilan manajemen kisi layar profesional di PC.",
-        src: "images/hero_phone_grid.png"
+        src: "images/home_polished.png"
       },
       {
         title: "Transfer File & APK Massal",
@@ -1464,13 +1464,13 @@ window.productLanguages = {
       ],
       ctaPrimary: {
         text: "Скачать пробную версию",
-        link: "https://www.dropbox.com/scl/fi/a3k0e10j7g1u84eavwb30/DeviceBridge-Setup-1.0.14.exe?rlkey=bsppqw2lk2ggjwpga2ovvklsa&st=s2fcqchd&dl=1"
+        link: "https://www.dropbox.com/scl/fi/vgp24gsrtj9uylx7tuq61/DeviceBridge-Setup-1.0.15.exe?rlkey=zos6gbmk08chk0p0goz7x9sih&st=jn94zx2y&dl=1"
       },
       ctaSecondary: {
         text: "Посмотреть цены",
         link: "#pricing"
       },
-      image: "images/hero_phone_grid.png"
+      image: "images/home_polished.png"
     },
     workflow: {
       title: "Работа с программой в 3 простых шага",
@@ -1503,7 +1503,7 @@ window.productLanguages = {
         description: "Поддерживает высококачественную трансляцию экрана в реальном времени на ПК со скоростью до 60 FPS и задержкой, близкой к нулю.",
         detailTitle: "Технология умного стриминга",
         detailDesc: "Использует аппаратно-оптимизированный движок для минимизации нагрузки на локальную сеть и оперативную память ПК. Открывайте десятки экранов устройств одновременно без потери плавности.",
-        image: "images/hero_phone_grid.png"
+        image: "images/home_polished.png"
       },
       {
         id: "bulk-file",
@@ -1530,14 +1530,14 @@ window.productLanguages = {
         description: "Клики, прокрутка и ввод текста на главном ПК мгновенно воспроизводятся на всех телефонах. Очистка кэша памяти в один клик.",
         detailTitle: "100% синхронизация в реальном времени",
         detailDesc: "Запускайте приложения одновременно, вводите текст с клавиатуры ПК и автоматически распределяйте его по всем телефонам. Экономия до 95% времени по сравнению с ручной работой.",
-        image: "images/hero_phone_grid.png"
+        image: "images/home_polished.png"
       }
     ],
     gallery: [
       {
         title: "Система централизованного управления",
         desc: "Профессиональный интерфейс управления сеткой экранов на ПК.",
-        src: "images/hero_phone_grid.png"
+        src: "images/home_polished.png"
       },
       {
         title: "Массовая передача файлов и APK",
@@ -1705,13 +1705,13 @@ window.productLanguages = {
       ],
       ctaPrimary: {
         text: "परीक्षण संस्करण डाउनलोड करें",
-        link: "https://www.dropbox.com/scl/fi/a3k0e10j7g1u84eavwb30/DeviceBridge-Setup-1.0.14.exe?rlkey=bsppqw2lk2ggjwpga2ovvklsa&st=s2fcqchd&dl=1"
+        link: "https://www.dropbox.com/scl/fi/vgp24gsrtj9uylx7tuq61/DeviceBridge-Setup-1.0.15.exe?rlkey=zos6gbmk08chk0p0goz7x9sih&st=jn94zx2y&dl=1"
       },
       ctaSecondary: {
         text: "मूल्य निर्धारण देखें",
         link: "#pricing"
       },
-      image: "images/hero_phone_grid.png"
+      image: "images/home_polished.png"
     },
     workflow: {
       title: "सॉफ़्टवेयर को 3 सरल चरणों में संचालित करें",
@@ -1744,7 +1744,7 @@ window.productLanguages = {
         description: "शून्य के करीब विलंबता के साथ 60 FPS तक पीसी पर उच्च गुणवत्ता वाले रीयल-टाइम स्क्रीन स्ट्रीमिंग का समर्थन करता है।",
         detailTitle: "स्मार्ट स्ट्रीमिंग तकनीक",
         detailDesc: "लैन बैंडविड्थ और पीसी रैम के उपयोग को कम करने के लिए हार्डवेयर-अनुकूलित इंजन का उपयोग करता है। पीसी को सुचारू रखते हुए एक साथ दर्जनों डिवाइस स्क्रीन खोलें।",
-        image: "images/hero_phone_grid.png"
+        image: "images/home_polished.png"
       },
       {
         id: "bulk-file",
@@ -1771,14 +1771,14 @@ window.productLanguages = {
         description: "मास्टर पीसी पर क्लिक, स्क्रॉल और टाइप करें और सभी उप-फोन तुरंत निष्पादित होते हैं। एक क्लिक में मेमोरी कैश साफ़ करें।",
         detailTitle: "100% रीयल-टाइम सिंक्रोनाइज़ेशन",
         detailDesc: "समान समय पर एप्लिकेशन लॉन्च करें, पीसी कीबोर्ड से टेक्स्ट टाइप करें और इसे स्वचालित रूप से सभी फोन में वितरित करें। मैन्युअल कार्यों की तुलना में 95% समय बचाएं।",
-        image: "images/hero_phone_grid.png"
+        image: "images/home_polished.png"
       }
     ],
     gallery: [
       {
         title: "केंद्रीकृत नियंत्रण प्रणाली",
         desc: "पीसी पर व्यावसायिक स्क्रीन ग्रिड प्रबंधन इंटरफ़ेस।",
-        src: "images/hero_phone_grid.png"
+        src: "images/home_polished.png"
       },
       {
         title: "थोक फ़ाइल और APK स्थानांतरण",

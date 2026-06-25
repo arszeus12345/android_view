@@ -846,4 +846,71 @@ document.addEventListener("DOMContentLoaded", () => {
       window.location.reload();
     }
   });
+
+  // ==========================================
+  // 13. XỬ LÝ IMAGE ZOOM / LIGHTBOX MODAL
+  // ==========================================
+  const lightbox = document.getElementById("lightbox");
+  const lightboxImg = document.getElementById("lightbox-img");
+  const lightboxCaption = document.getElementById("lightbox-caption");
+  const lightboxClose = document.getElementById("lightbox-close");
+
+  const openLightbox = (src, alt) => {
+    if (!lightbox || !lightboxImg) return;
+    lightboxImg.src = src;
+    if (lightboxCaption) {
+      lightboxCaption.textContent = alt || "";
+    }
+    lightbox.classList.add("active");
+    lightbox.setAttribute("aria-hidden", "false");
+    document.body.style.overflow = "hidden"; // Prevent scrolling when open
+  };
+
+  const closeLightbox = () => {
+    if (!lightbox) return;
+    lightbox.classList.remove("active");
+    lightbox.setAttribute("aria-hidden", "true");
+    document.body.style.overflow = ""; // Restore scrolling
+  };
+
+  if (lightboxClose) {
+    lightboxClose.addEventListener("click", closeLightbox);
+  }
+  if (lightbox) {
+    lightbox.addEventListener("click", (e) => {
+      // Close only if click is directly on the overlay backdrop or the image itself
+      if (e.target === lightbox || e.target === lightboxImg) {
+        closeLightbox();
+      }
+    });
+  }
+
+  // Handle Escape key to close
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") {
+      closeLightbox();
+    }
+  });
+
+  // Attach click listeners to zoomable images (Gallery and Feature Showcase)
+  document.addEventListener("click", (e) => {
+    // 1. Gallery images
+    const galleryCard = e.target.closest(".gallery-card");
+    if (galleryCard) {
+      const img = galleryCard.querySelector(".gallery-img");
+      const title = galleryCard.querySelector(".gallery-title");
+      if (img) {
+        openLightbox(img.src, title ? title.textContent : img.alt);
+      }
+      return;
+    }
+
+    // 2. Feature showcase images
+    const showcaseImg = e.target.closest(".feature-showcase-img");
+    if (showcaseImg) {
+      const title = document.querySelector(".feature-showcase-title");
+      openLightbox(showcaseImg.src, title ? title.textContent : showcaseImg.alt);
+      return;
+    }
+  });
 });

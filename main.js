@@ -72,33 +72,33 @@ document.addEventListener("DOMContentLoaded", () => {
     const twitterDesc = document.querySelector('meta[property="twitter:description"]');
     if (twitterDesc) twitterDesc.setAttribute('content', ui.description);
 
-    // Text phần simulator bộ giả lập
-    const simTitleEl = document.querySelector('.sim-title');
-    if (simTitleEl) simTitleEl.textContent = ui.simTitle;
+    // // Text phần simulator bộ giả lập
+    // const simTitleEl = document.querySelector('.sim-title');
+    // if (simTitleEl) simTitleEl.textContent = ui.simTitle;
 
-    const simActiveCountEl = document.getElementById('sim-active-count');
-    if (simActiveCountEl) simActiveCountEl.innerHTML = `<span class="pulse-indicator"></span> ${ui.simActiveCount}`;
+    // const simActiveCountEl = document.getElementById('sim-active-count');
+    // if (simActiveCountEl) simActiveCountEl.innerHTML = `<span class="pulse-indicator"></span> ${ui.simActiveCount}`;
 
-    const simSidebarTitleEl = document.querySelector('.sim-sidebar-title');
-    if (simSidebarTitleEl) simSidebarTitleEl.textContent = ui.simSidebarTitle;
+    // const simSidebarTitleEl = document.querySelector('.sim-sidebar-title');
+    // if (simSidebarTitleEl) simSidebarTitleEl.textContent = ui.simSidebarTitle;
 
-    const simBtnSyncSpan = document.querySelector('#sim-btn-sync span');
-    if (simBtnSyncSpan) simBtnSyncSpan.textContent = ui.simBtnSync;
+    // const simBtnSyncSpan = document.querySelector('#sim-btn-sync span');
+    // if (simBtnSyncSpan) simBtnSyncSpan.textContent = ui.simBtnSync;
 
-    const simBtnFileSpan = document.querySelector('#sim-btn-file span');
-    if (simBtnFileSpan) simBtnFileSpan.textContent = ui.simBtnFile;
+    // const simBtnFileSpan = document.querySelector('#sim-btn-file span');
+    // if (simBtnFileSpan) simBtnFileSpan.textContent = ui.simBtnFile;
 
-    const simBtnApkSpan = document.querySelector('#sim-btn-apk span');
-    if (simBtnApkSpan) simBtnApkSpan.textContent = ui.simBtnApk;
+    // const simBtnApkSpan = document.querySelector('#sim-btn-apk span');
+    // if (simBtnApkSpan) simBtnApkSpan.textContent = ui.simBtnApk;
 
-    const simBtnRebootSpan = document.querySelector('#sim-btn-reboot span');
-    if (simBtnRebootSpan) simBtnRebootSpan.textContent = ui.simBtnReboot;
+    // const simBtnRebootSpan = document.querySelector('#sim-btn-reboot span');
+    // if (simBtnRebootSpan) simBtnRebootSpan.textContent = ui.simBtnReboot;
 
-    const latencyLabelEl = document.querySelector('.hud-stat-item:nth-child(1) .label');
-    if (latencyLabelEl) latencyLabelEl.textContent = ui.latencyLabel;
+    // const latencyLabelEl = document.querySelector('.hud-stat-item:nth-child(1) .label');
+    // if (latencyLabelEl) latencyLabelEl.textContent = ui.latencyLabel;
 
-    const fpsLabelEl = document.querySelector('.hud-stat-item:nth-child(2) .label');
-    if (fpsLabelEl) fpsLabelEl.textContent = ui.fpsLabel;
+    // const fpsLabelEl = document.querySelector('.hud-stat-item:nth-child(2) .label');
+    // if (fpsLabelEl) fpsLabelEl.textContent = ui.fpsLabel;
 
     // Trạng thái các thiết bị giả lập
     const p1Status = document.getElementById('phone-status-1');
@@ -326,25 +326,20 @@ document.addEventListener("DOMContentLoaded", () => {
     
     setSimButtonActive(simBtnSync);
     
-    // Tìm tất cả ripple trên các điện thoại
-    const ripples = document.querySelectorAll(".click-ripple");
-    ripples.forEach(ripple => {
-      // Đặt tọa độ ngẫu nhiên nhẹ để trông giống click tự nhiên
-      const randomX = Math.floor(Math.random() * 40) + 30; // 30% - 70%
-      const randomY = Math.floor(Math.random() * 40) + 30;
-      
-      ripple.style.left = `${randomX}%`;
-      ripple.style.top = `${randomY}%`;
-      
-      ripple.classList.remove("animate");
-      // Trigger reflow
-      void ripple.offsetWidth;
-      ripple.classList.add("animate");
+    const ripples = document.querySelectorAll(".sim-display-container .click-ripple");
+    ripples.forEach((ripple) => {
+      // Thêm độ trễ ngẫu nhiên siêu nhỏ (0 - 45ms) cho từng thiết bị giống thực tế (độ trễ truyền mạng)
+      const delay = Math.random() * 45;
+      setTimeout(() => {
+        ripple.classList.remove("animate");
+        void ripple.offsetWidth; // Trigger reflow
+        ripple.classList.add("animate");
+      }, delay);
     });
 
     setTimeout(() => {
       isSimulating = false;
-    }, 600);
+    }, 650);
   };
   
   if (simBtnSync) {
@@ -407,7 +402,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       // Hiện lớp phủ tiến trình cài đặt
       const overlays = document.querySelectorAll(".apk-progress-overlay");
-      const fills = document.querySelectorAll(".progress-fill");
+      const fills = document.querySelectorAll(".apk-progress-overlay .progress-fill");
 
       overlays.forEach(overlay => overlay.classList.add("active"));
       fills.forEach(fill => fill.style.width = "0%");
@@ -902,7 +897,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  // Attach click listeners to zoomable images (Gallery and Feature Showcase)
+  // Attach click listeners to zoomable images (Gallery, Feature Showcase, and Hero Simulator Image)
   document.addEventListener("click", (e) => {
     // 1. Gallery images
     const galleryCard = e.target.closest(".gallery-card");
@@ -920,6 +915,14 @@ document.addEventListener("DOMContentLoaded", () => {
     if (showcaseImg) {
       const title = document.querySelector(".feature-showcase-title");
       openLightbox(showcaseImg.src, title ? title.textContent : showcaseImg.alt);
+      return;
+    }
+
+    // 3. Hero simulator image
+    const simScrImg = e.target.closest(".sim-screenshot-only");
+    if (simScrImg) {
+      const simTitle = document.querySelector(".sim-title");
+      openLightbox(simScrImg.src, simTitle ? simTitle.textContent : simScrImg.alt);
       return;
     }
   });

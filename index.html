@@ -1,25 +1,30 @@
 <!DOCTYPE html>
 <html lang="vi">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bridge Devices - Điều khiển & Quản lý điện thoại Android tập trung</title>
-  <meta name="description" content="Hệ thống điều khiển điện thoại Android tập trung độ trễ thấp dưới 15ms. Tự động hóa kịch bản, nuôi tài khoản và đổi proxy mạng độc lập. Tối ưu cho MMO và thử nghiệm.">
-  
+  <meta name="description"
+    content="Hệ thống điều khiển điện thoại Android tập trung độ trễ thấp dưới 15ms. Tự động hóa kịch bản, nuôi tài khoản và đổi proxy mạng độc lập. Tối ưu cho MMO và thử nghiệm.">
+
   <meta name="robots" content="index, follow">
-  <meta name="keywords" content="Bridge Devices, điều khiển android, nuôi tài khoản, mmo, test android, auto flow, adb, giả lập android, android control">
+  <meta name="keywords"
+    content="Bridge Devices, điều khiển android, nuôi tài khoản, mmo, test android, auto flow, adb, giả lập android, android control">
   <link rel="canonical" href="https://bridge-devices.com/">
 
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://bridge-devices.com/">
   <meta property="og:title" content="Bridge Devices - Điều khiển & Quản lý điện thoại Android tập trung">
-  <meta property="og:description" content="Hệ thống điều khiển điện thoại Android tập trung độ trễ thấp dưới 15ms. Tự động hóa kịch bản, nuôi tài khoản và đổi proxy mạng độc lập. Tối ưu cho MMO và thử nghiệm.">
+  <meta property="og:description"
+    content="Hệ thống điều khiển điện thoại Android tập trung độ trễ thấp dưới 15ms. Tự động hóa kịch bản, nuôi tài khoản và đổi proxy mạng độc lập. Tối ưu cho MMO và thử nghiệm.">
   <meta property="og:image" content="images/home_polished.png">
 
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:url" content="https://bridge-devices.com/">
   <meta property="twitter:title" content="Bridge Devices - Điều khiển & Quản lý điện thoại Android tập trung">
-  <meta property="twitter:description" content="Hệ thống điều khiển điện thoại Android tập trung độ trễ thấp dưới 15ms. Tự động hóa kịch bản, nuôi tài khoản và đổi proxy mạng độc lập. Tối ưu cho MMO và thử nghiệm.">
+  <meta property="twitter:description"
+    content="Hệ thống điều khiển điện thoại Android tập trung độ trễ thấp dưới 15ms. Tự động hóa kịch bản, nuôi tài khoản và đổi proxy mạng độc lập. Tối ưu cho MMO và thử nghiệm.">
   <meta property="twitter:image" content="images/home_polished.png">
 
   <script type="application/ld+json">
@@ -55,13 +60,14 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
   <header class="header" id="header">
     <div class="container">
       <a href="#" class="logo" id="header-logo">
       </a>
-      
+
       <nav class="nav-links" id="header-nav-links">
       </nav>
 
@@ -111,7 +117,7 @@
           </h1>
           <p class="hero-subtitle" id="hero-subtitle">
           </p>
-          
+
           <ul class="hero-list-features" id="hero-features-list">
           </ul>
 
@@ -132,215 +138,14 @@
               <div class="sim-title">Bridge Devices - Điều khiển trung tâm (Đang chạy...)</div>
               <div class="sim-status">
                 <span class="pulse-indicator"></span>
-                <span id="sim-active-count">9 Online</span>
+                <span id="sim-active-count">Online</span>
               </div>
             </div>
-            
+
             <div class="sim-body">
-              <div class="sim-sidebar">
-                <div class="sim-sidebar-title">BẢNG ĐIỀU KHIỂN</div>
-                <button class="sim-action-btn active" id="sim-btn-sync">
-                  <i class="fas fa-sync"></i>
-                  <span>Đồng bộ Click</span>
-                </button>
-                <button class="sim-action-btn" id="sim-btn-file">
-                  <i class="fas fa-share-square"></i>
-                  <span>Truyền tệp tin</span>
-                </button>
-                <button class="sim-action-btn" id="sim-btn-apk">
-                  <i class="fas fa-file-download"></i>
-                  <span>Cài đặt APK</span>
-                </button>
-                <button class="sim-action-btn" id="sim-btn-reboot">
-                  <i class="fas fa-power-off"></i>
-                  <span>Khởi động lại</span>
-                </button>
-
-                <div class="sim-hud-stats">
-                  <div class="hud-stat-item">
-                    <span class="label">Độ trễ truyền:</span>
-                    <span class="val text-green" id="hud-ping-val">12ms</span>
-                  </div>
-                  <div class="hud-stat-item">
-                    <span class="label">Tốc độ khung:</span>
-                    <span class="val text-blue">60 FPS</span>
-                  </div>
-                </div>
-              </div>
-
-              <div class="sim-phones-grid">
-                <div class="sim-phone-card" id="sim-phone-1">
-                  <div class="phone-info-bar">
-                    <span class="phone-name">Device #1</span>
-                    <span class="phone-status" id="phone-status-1">Pin: 92% | Online</span>
-                  </div>
-                  <div class="phone-screen-container">
-                    <div class="phone-notch"></div>
-                    <div class="phone-screen app-facebook">
-                      <div class="app-header">
-                        <i class="fab fa-facebook"></i>
-                        <span>Trang chủ</span>
-                      </div>
-                      <div class="app-body">
-                        <div class="post-card">
-                          <div class="avatar"></div>
-                          <div class="post-lines">
-                            <span class="line short"></span>
-                            <span class="line long"></span>
-                          </div>
-                        </div>
-                        <div class="post-card">
-                          <div class="avatar"></div>
-                          <div class="post-lines">
-                            <span class="line short"></span>
-                            <span class="line long"></span>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="app-footer">
-                        <i class="fas fa-home text-blue"></i>
-                        <i class="fas fa-user-friends"></i>
-                        <i class="fas fa-bell"></i>
-                      </div>
-                    </div>
-                    <div class="click-ripple"></div>
-                    <div class="file-transfer-overlay">
-                      <i class="fas fa-cloud-download-alt fa-bounce"></i>
-                      <span>Truyền file...</span>
-                      <div class="progress-bar"><div class="progress-fill"></div></div>
-                    </div>
-                    <div class="apk-progress-overlay">
-                      <span>Cài đặt ứng dụng...</span>
-                      <div class="progress-bar"><div class="progress-fill"></div></div>
-                    </div>
-                    <div class="reboot-overlay">
-                      <i class="fas fa-mobile-alt"></i>
-                      <span>Khởi động...</span>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="sim-phone-card" id="sim-phone-2">
-                  <div class="phone-info-bar">
-                    <span class="phone-name">Device #2</span>
-                    <span class="phone-status" id="phone-status-2">Pin: 88% | Online</span>
-                  </div>
-                  <div class="phone-screen-container">
-                    <div class="phone-notch"></div>
-                    <div class="phone-screen app-tiktok">
-                      <div class="app-header">
-                        <span>Đang Follow</span>
-                        <span class="active">Dành Cho Bạn</span>
-                      </div>
-                      <div class="app-body tiktok-video">
-                        <i class="fab fa-tiktok tiktok-logo"></i>
-                        <div class="tiktok-actions">
-                          <div class="action-circle text-red"><i class="fas fa-heart"></i></div>
-                          <div class="action-circle"><i class="fas fa-comment"></i></div>
-                          <div class="action-circle"><i class="fas fa-share"></i></div>
-                        </div>
-                        <div class="tiktok-desc">
-                          <span class="user">@mmo_master</span>
-                          <span class="desc-line">Nuôi tài khoản tự động...</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="click-ripple"></div>
-                    <div class="file-transfer-overlay">
-                      <i class="fas fa-cloud-download-alt fa-bounce"></i>
-                      <span>Truyền file...</span>
-                      <div class="progress-bar"><div class="progress-fill"></div></div>
-                    </div>
-                    <div class="apk-progress-overlay">
-                      <span>Cài đặt ứng dụng...</span>
-                      <div class="progress-bar"><div class="progress-fill"></div></div>
-                    </div>
-                    <div class="reboot-overlay">
-                      <i class="fas fa-mobile-alt"></i>
-                      <span>Khởi động...</span>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="sim-phone-card" id="sim-phone-3">
-                  <div class="phone-info-bar">
-                    <span class="phone-name">Device #3</span>
-                    <span class="phone-status" id="phone-status-3">Pin: 95% | Online</span>
-                  </div>
-                  <div class="phone-screen-container">
-                    <div class="phone-notch"></div>
-                    <div class="phone-screen app-shopee">
-                      <div class="app-header bg-orange text-white">
-                        <i class="fas fa-shopping-bag"></i>
-                        <span>Shopee Mall</span>
-                      </div>
-                      <div class="app-body">
-                        <div class="shopee-search"></div>
-                        <div class="shopee-products-grid">
-                          <div class="shopee-item"></div>
-                          <div class="shopee-item"></div>
-                        </div>
-                      </div>
-                      <div class="app-footer">
-                        <i class="fas fa-store text-orange"></i>
-                        <i class="fas fa-heart"></i>
-                        <i class="fas fa-user"></i>
-                      </div>
-                    </div>
-                    <div class="click-ripple"></div>
-                    <div class="file-transfer-overlay">
-                      <i class="fas fa-cloud-download-alt fa-bounce"></i>
-                      <span>Truyền file...</span>
-                      <div class="progress-bar"><div class="progress-fill"></div></div>
-                    </div>
-                    <div class="apk-progress-overlay">
-                      <span>Cài đặt ứng dụng...</span>
-                      <div class="progress-bar"><div class="progress-fill"></div></div>
-                    </div>
-                    <div class="reboot-overlay">
-                      <i class="fas fa-mobile-alt"></i>
-                      <span>Khởi động...</span>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="sim-phone-card" id="sim-phone-4">
-                  <div class="phone-info-bar">
-                    <span class="phone-name">Device #4</span>
-                    <span class="phone-status" id="phone-status-4">Pin: 90% | Online</span>
-                  </div>
-                  <div class="phone-screen-container">
-                    <div class="phone-notch"></div>
-                    <div class="phone-screen app-chrome">
-                      <div class="app-header bg-light">
-                        <div class="chrome-search-bar">routermmo.com</div>
-                      </div>
-                      <div class="app-body">
-                        <div class="chrome-web-page">
-                          <div class="web-banner"></div>
-                          <div class="web-line"></div>
-                          <div class="web-line"></div>
-                          <div class="web-line"></div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="click-ripple"></div>
-                    <div class="file-transfer-overlay">
-                      <i class="fas fa-cloud-download-alt fa-bounce"></i>
-                      <span>Truyền file...</span>
-                      <div class="progress-bar"><div class="progress-fill"></div></div>
-                    </div>
-                    <div class="apk-progress-overlay">
-                      <span>Cài đặt ứng dụng...</span>
-                      <div class="progress-bar"><div class="progress-fill"></div></div>
-                    </div>
-                    <div class="reboot-overlay">
-                      <i class="fas fa-mobile-alt"></i>
-                      <span>Khởi động...</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <img src="images/dong_bo.jpg"
+                alt="Bridge Devices - Giao diện điều khiển và quản lý điện thoại Android tập trung"
+                class="sim-screenshot-only zoomable">
             </div>
           </div>
         </div>
@@ -361,7 +166,8 @@
       <div class="section-header reveal">
         <span class="section-badge">Tính Năng Vượt Trội</span>
         <h2 class="section-title">Giải PháP Điều Khiển Toàn Diện</h2>
-        <p class="section-subtitle">Tích hợp đầy đủ các công cụ chuyên nghiệp để tự động hóa công việc trên điện thoại của bạn.</p>
+        <p class="section-subtitle">Tích hợp đầy đủ các công cụ chuyên nghiệp để tự động hóa công việc trên điện thoại
+          của bạn.</p>
       </div>
 
       <div class="features-interactive reveal">
@@ -392,8 +198,9 @@
       <div class="section-header reveal">
         <span class="section-badge" id="pricing-badge">Bảng Giá</span>
         <h2 class="section-title" id="pricing-title">Lựa Chọn Gói Dịch Vụ</h2>
-        <p class="section-subtitle" id="pricing-subtitle">Phù hợp từ quy mô cá nhân nhỏ lẻ cho tới các studio hàng trăm máy.</p>
-        
+        <p class="section-subtitle" id="pricing-subtitle">Phù hợp từ quy mô cá nhân nhỏ lẻ cho tới các studio hàng trăm
+          máy.</p>
+
         <div class="pricing-toggle-wrapper">
           <span class="toggle-label active" id="billing-monthly">Thanh toán theo tháng</span>
           <label class="toggle-switch">
@@ -401,7 +208,7 @@
             <span class="toggle-slider"></span>
           </label>
           <span class="toggle-label" id="billing-yearly">
-            Thanh toán theo năm 
+            Thanh toán theo năm
             <span class="discount-badge">Giảm 20%</span>
           </span>
         </div>
@@ -467,4 +274,5 @@
   <script src="data.js"></script>
   <script src="main.js"></script>
 </body>
+
 </html>

@@ -252,7 +252,7 @@ h1, h2, h3, h4 {
 
 .hero-grid {
   display: grid;
-  grid-template-columns: 1fr 1.1fr;
+  grid-template-columns: 1fr 1.35fr;
   align-items: center;
   gap: 50px;
 }
@@ -371,7 +371,7 @@ h1, h2, h3, h4 {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  height: 480px;
+  height: auto;
   transform: rotateY(-3deg) rotateX(1deg);
   transition: transform 0.5s ease;
 }
@@ -520,15 +520,13 @@ h1, h2, h3, h4 {
 .hud-stat-item .text-green { color: var(--color-accent); }
 .hud-stat-item .text-blue { color: var(--color-secondary); }
 
-/* Sim Phones Grid */
-.sim-phones-grid {
-  flex: 1;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 12px;
-  padding: 16px;
-  overflow: hidden;
+/* Sim Screenshot Only (Full dashboard screenshot inside simulator window) */
+.sim-screenshot-only {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  cursor: zoom-in;
 }
 
 /* Phone Card */

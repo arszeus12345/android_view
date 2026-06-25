@@ -62,6 +62,16 @@ document.addEventListener("DOMContentLoaded", () => {
     const metaDesc = document.querySelector('meta[name="description"]');
     if (metaDesc) metaDesc.setAttribute('content', ui.description);
 
+    // Cập nhật Open Graph & Twitter Meta Tags động cho SEO
+    const ogTitle = document.querySelector('meta[property="og:title"]');
+    if (ogTitle) ogTitle.setAttribute('content', ui.title);
+    const ogDesc = document.querySelector('meta[property="og:description"]');
+    if (ogDesc) ogDesc.setAttribute('content', ui.description);
+    const twitterTitle = document.querySelector('meta[property="twitter:title"]');
+    if (twitterTitle) twitterTitle.setAttribute('content', ui.title);
+    const twitterDesc = document.querySelector('meta[property="twitter:description"]');
+    if (twitterDesc) twitterDesc.setAttribute('content', ui.description);
+
     // Text phần simulator bộ giả lập
     const simTitleEl = document.querySelector('.sim-title');
     if (simTitleEl) simTitleEl.textContent = ui.simTitle;

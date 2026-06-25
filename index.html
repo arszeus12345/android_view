@@ -6,26 +6,20 @@
   <title>Bridge Devices - Điều khiển & Quản lý điện thoại Android tập trung</title>
   <meta name="description" content="Hệ thống điều khiển điện thoại Android tập trung độ trễ thấp dưới 15ms. Tự động hóa kịch bản, nuôi tài khoản và đổi proxy mạng độc lập. Tối ưu cho MMO và thử nghiệm.">
   
-  <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <!-- Custom Stylesheet -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- --- HEADER / NAVIGATION --- -->
   <header class="header" id="header">
     <div class="container">
       <a href="#" class="logo" id="header-logo">
-        <!-- Động: Tải từ data.js -->
       </a>
       
       <nav class="nav-links" id="header-nav-links">
-        <!-- Động: Tải các link từ data.js -->
       </nav>
 
       <div class="nav-cta">
-        <!-- Language Selector -->
         <div class="lang-selector">
           <button class="lang-btn" id="lang-btn" aria-haspopup="true" aria-expanded="false">
             <span id="current-lang-flag" class="flag-icon">🇻🇳</span>
@@ -45,7 +39,6 @@
         </div>
 
         <a href="#pricing" class="btn btn-secondary" id="header-cta">
-          <!-- Động: CTA từ data.js -->
         </a>
       </div>
 
@@ -55,14 +48,10 @@
     </div>
   </header>
 
-  <!-- --- MOBILE NAVIGATION OVERLAY --- -->
   <div class="mobile-nav" id="mobile-nav">
-    <!-- Động: Copy link điều hướng vào đây qua JS -->
   </div>
 
-  <!-- --- HERO SECTION WITH INTERACTIVE SIMULATOR --- -->
   <section class="hero" id="hero">
-    <!-- Khối cầu màu sắc nền mờ nhạt (Ambient Pastel Orbs) -->
     <div class="orb orb-1"></div>
     <div class="orb orb-2"></div>
     <div class="orb orb-3"></div>
@@ -71,29 +60,23 @@
       <div class="hero-grid">
         <div class="hero-content">
           <div class="hero-badge" id="hero-badge-box">
-            <!-- Động: Badge của Hero -->
           </div>
           <h1 class="hero-title" id="hero-title">
-            <!-- Động: Tiêu đề -->
           </h1>
           <p class="hero-subtitle" id="hero-subtitle">
-            <!-- Động: Phụ đề -->
           </p>
           
           <ul class="hero-list-features" id="hero-features-list">
-            <!-- Động: Các tính năng nhỏ của Hero -->
           </ul>
 
           <div class="hero-ctas">
-            <a href="#" class="btn btn-primary" id="hero-btn-primary"><!-- Động --></a>
-            <a href="#" class="btn btn-secondary" id="hero-btn-secondary"><!-- Động --></a>
+            <a href="#" class="btn btn-primary" id="hero-btn-primary"></a>
+            <a href="#" class="btn btn-secondary" id="hero-btn-secondary"></a>
           </div>
         </div>
 
-        <!-- BỘ GIẢ LẬP TƯƠNG TÁC (INTERACTIVE SIMULATOR) -->
         <div class="simulator-wrapper">
           <div class="simulator-window">
-            <!-- Header cửa sổ Mac OS -->
             <div class="sim-header">
               <div class="sim-dots">
                 <span class="dot red"></span>
@@ -108,7 +91,6 @@
             </div>
             
             <div class="sim-body">
-              <!-- Bảng điều khiển tác vụ -->
               <div class="sim-sidebar">
                 <div class="sim-sidebar-title">BẢNG ĐIỀU KHIỂN</div>
                 <button class="sim-action-btn active" id="sim-btn-sync">
@@ -140,9 +122,7 @@
                 </div>
               </div>
 
-              <!-- Lưới màn hình các điện thoại -->
               <div class="sim-phones-grid">
-                <!-- Phone #1 -->
                 <div class="sim-phone-card" id="sim-phone-1">
                   <div class="phone-info-bar">
                     <span class="phone-name">Device #1</span>
@@ -177,7 +157,6 @@
                         <i class="fas fa-bell"></i>
                       </div>
                     </div>
-                    <!-- Các lớp Overlay hoạt ảnh giả lập -->
                     <div class="click-ripple"></div>
                     <div class="file-transfer-overlay">
                       <i class="fas fa-cloud-download-alt fa-bounce"></i>
@@ -195,7 +174,6 @@
                   </div>
                 </div>
 
-                <!-- Phone #2 -->
                 <div class="sim-phone-card" id="sim-phone-2">
                   <div class="phone-info-bar">
                     <span class="phone-name">Device #2</span>
@@ -221,7 +199,6 @@
                         </div>
                       </div>
                     </div>
-                    <!-- Các lớp Overlay hoạt ảnh giả lập -->
                     <div class="click-ripple"></div>
                     <div class="file-transfer-overlay">
                       <i class="fas fa-cloud-download-alt fa-bounce"></i>
@@ -239,7 +216,6 @@
                   </div>
                 </div>
 
-                <!-- Phone #3 -->
                 <div class="sim-phone-card" id="sim-phone-3">
                   <div class="phone-info-bar">
                     <span class="phone-name">Device #3</span>
@@ -265,7 +241,6 @@
                         <i class="fas fa-user"></i>
                       </div>
                     </div>
-                    <!-- Các lớp Overlay hoạt ảnh giả lập -->
                     <div class="click-ripple"></div>
                     <div class="file-transfer-overlay">
                       <i class="fas fa-cloud-download-alt fa-bounce"></i>
@@ -283,7 +258,6 @@
                   </div>
                 </div>
 
-                <!-- Phone #4 -->
                 <div class="sim-phone-card" id="sim-phone-4">
                   <div class="phone-info-bar">
                     <span class="phone-name">Device #4</span>
@@ -304,7 +278,6 @@
                         </div>
                       </div>
                     </div>
-                    <!-- Các lớp Overlay hoạt ảnh giả lập -->
                     <div class="click-ripple"></div>
                     <div class="file-transfer-overlay">
                       <i class="fas fa-cloud-download-alt fa-bounce"></i>
@@ -329,17 +302,14 @@
     </div>
   </section>
 
-  <!-- --- WORKFLOW SECTION --- -->
   <section class="workflow" id="workflow">
     <div class="container">
-      <h2 class="section-title text-center" id="workflow-title" style="text-align: center; margin-bottom: 40px;"><!-- Động --></h2>
+      <h2 class="section-title text-center" id="workflow-title" style="text-align: center; margin-bottom: 40px;"></h2>
       <div class="workflow-steps" id="workflow-steps-container">
-        <!-- Động: Các bước hoạt động từ data.js -->
       </div>
     </div>
   </section>
 
-  <!-- --- FEATURES SECTION --- -->
   <section class="features" id="features">
     <div class="container">
       <div class="section-header reveal">
@@ -349,20 +319,15 @@
       </div>
 
       <div class="features-interactive reveal">
-        <!-- Bên trái: Các tab bấm chọn tính năng -->
         <div class="features-tabs" id="features-tabs-container">
-          <!-- Động: Các tab tính năng từ data.js -->
         </div>
 
-        <!-- Bên phải: Khu vực hiển thị chi tiết tính năng đang chọn -->
         <div class="feature-showcase-panel" id="feature-showcase-panel">
-          <!-- Động: Tải nội dung chi tiết tính năng -->
         </div>
       </div>
     </div>
   </section>
 
-  <!-- --- GALLERY SECTION --- -->
   <section class="gallery" id="gallery">
     <div class="container">
       <div class="section-header reveal">
@@ -372,12 +337,10 @@
       </div>
 
       <div class="gallery-grid reveal" id="gallery-container">
-        <!-- Động: Tải hình ảnh từ data.js -->
       </div>
     </div>
   </section>
 
-  <!-- --- PRICING SECTION --- -->
   <section class="pricing" id="pricing">
     <div class="container">
       <div class="section-header reveal">
@@ -385,7 +348,6 @@
         <h2 class="section-title" id="pricing-title">Lựa Chọn Gói Dịch Vụ</h2>
         <p class="section-subtitle" id="pricing-subtitle">Phù hợp từ quy mô cá nhân nhỏ lẻ cho tới các studio hàng trăm máy.</p>
         
-        <!-- Nút gạt chuyển đổi chu kỳ thanh toán -->
         <div class="pricing-toggle-wrapper">
           <span class="toggle-label active" id="billing-monthly">Thanh toán theo tháng</span>
           <label class="toggle-switch">
@@ -400,12 +362,10 @@
       </div>
 
       <div class="pricing-grid reveal" id="pricing-container">
-        <!-- Động: Tải các gói giá từ data.js -->
       </div>
     </div>
   </section>
 
-  <!-- --- FAQS SECTION --- -->
   <section class="faqs" id="faqs">
     <div class="container">
       <div class="section-header reveal">
@@ -415,38 +375,31 @@
       </div>
 
       <div class="faqs-list reveal" id="faqs-container">
-        <!-- Động: Các accordion câu hỏi từ data.js -->
       </div>
     </div>
   </section>
 
-  <!-- --- FOOTER --- -->
   <footer class="footer">
     <div class="container">
       <div class="footer-top">
         <div class="footer-about">
           <div class="logo" id="footer-logo">
-            <!-- Động -->
           </div>
           <p class="footer-about-text" id="footer-about-text">
-            <!-- Động -->
           </p>
           <div class="footer-socials" id="footer-socials">
-            <!-- Động -->
           </div>
         </div>
 
         <div class="footer-nav">
           <h4 class="footer-title">Khám Phá</h4>
           <ul class="footer-links" id="footer-links-container">
-            <!-- Động -->
           </ul>
         </div>
 
         <div class="footer-info">
           <h4 class="footer-title">Liên Hệ Trợ Giúp</h4>
           <div class="footer-contact" id="footer-contact-container">
-            <!-- Động -->
           </div>
         </div>
       </div>
@@ -457,7 +410,6 @@
     </div>
   </footer>
 
-  <!-- --- LIGHTBOX IMAGE MODAL --- -->
   <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog">
     <button class="lightbox-close" id="lightbox-close" aria-label="Close image popup">&times;</button>
     <div class="lightbox-content">
@@ -466,9 +418,7 @@
     </div>
   </div>
 
-  <!-- Dữ liệu JS -->
   <script src="data.js"></script>
-  <!-- Logic JS chính -->
   <script src="main.js"></script>
 </body>
 </html>

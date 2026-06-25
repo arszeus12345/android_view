@@ -182,9 +182,9 @@ window.productLanguages = {
     footer: {
       about: "Bridge Devices là thương hiệu hàng đầu cung cấp giải pháp quản lý di động tập trung cho các MMOer và Tester tại Việt Nam.",
       contact: {
-        phone: "0987.654.321",
-        email: "support@droidvision.vn",
-        address: "Tòa nhà TechCenter, Cầu Giấy, Hà Nội"
+        phone: "",
+        email: "",
+        address: ""
       },
       links: [
         { text: "Trang chủ", href: "index.html" },

@@ -1,19 +1,19 @@
-// Dữ liệu nội dung hướng dẫn chi tiết trang tài liệu DroidVision Pro trong nhiều ngôn ngữ
+// Dữ liệu nội dung hướng dẫn chi tiết trang tài liệu Bridge Devices trong nhiều ngôn ngữ
 window.docsLanguages = {
   vi: {
     title: "Tài liệu hướng dẫn",
     sections: [
       {
         id: "docs-intro",
-        title: "Giới thiệu DroidVision Pro",
+        title: "Giới thiệu Bridge Devices",
         content: [
           {
             type: "paragraph",
-            text: "Chào mừng bạn đến với tài liệu hướng dẫn sử dụng <strong>DroidVision Pro</strong> - hệ thống phần mềm điều khiển và quản lý điện thoại Android tập trung độ trễ thấp hàng đầu hiện nay."
+            text: "Chào mừng bạn đến với tài liệu hướng dẫn sử dụng <strong>Bridge Devices</strong> - hệ thống phần mềm điều khiển và quản lý điện thoại Android tập trung độ trễ thấp hàng đầu hiện nay."
           },
           {
             type: "paragraph",
-            text: "Phần mềm cho phép bạn theo dõi và kiểm soát màn hình của hàng chục, hàng trăm thiết bị Android cùng lúc thông qua kết nối cáp USB hoặc mạng không dây nội bộ (Wifi). DroidVision Pro được thiết kế đặc biệt cho các nhà phát triển, Tester kiểm thử ứng dụng, và các cá nhân kinh doanh MMO (Make Money Online) tối ưu năng suất lao động."
+            text: "Phần mềm cho phép bạn theo dõi và kiểm soát màn hình của hàng chục, hàng trăm thiết bị Android cùng lúc thông qua kết nối cáp USB hoặc mạng không dây nội bộ (Wifi). Bridge Devices được thiết kế đặc biệt cho các nhà phát triển, Tester kiểm thử ứng dụng, và các cá nhân kinh doanh MMO (Make Money Online) tối ưu năng suất lao động."
           },
           {
             type: "callout",
@@ -30,7 +30,7 @@ window.docsLanguages = {
         content: [
           {
             type: "paragraph",
-            text: "Để DroidVision Pro có thể nhận diện và truyền màn hình từ điện thoại Android của bạn lên máy tính, hãy làm theo các bước chuẩn bị kết nối sau đây:"
+            text: "Để Bridge Devices có thể nhận diện và truyền màn hình từ điện thoại Android của bạn lên máy tính, hãy làm theo các bước chuẩn bị kết nối sau đây:"
           },
           {
             type: "steps",
@@ -73,7 +73,7 @@ window.docsLanguages = {
         content: [
           {
             type: "paragraph",
-            text: "Tính năng cốt lõi của DroidVision Pro là khả năng truyền tải thao tác tương tác của bạn từ một màn hình thiết bị gốc (Master Device) tới tất cả các thiết bị con khác cùng một lúc."
+            text: "Tính năng cốt lõi của Bridge Devices là khả năng truyền tải thao tác tương tác của bạn từ một màn hình thiết bị gốc (Master Device) tới tất cả các thiết bị con khác cùng một lúc."
           },
           {
             type: "subtitle",
@@ -110,7 +110,7 @@ window.docsLanguages = {
         content: [
           {
             type: "paragraph",
-            text: "DroidVision Pro giúp việc phân phối ứng dụng lên hàng chục máy điện thoại trở nên cực kỳ đơn giản mà không cần tải từ cửa hàng CH Play trên từng máy."
+            text: "Bridge Devices giúp việc phân phối ứng dụng lên hàng chục máy điện thoại trở nên cực kỳ đơn giản mà không cần tải từ cửa hàng CH Play trên từng máy."
           },
           {
             type: "subtitle",
@@ -124,7 +124,7 @@ window.docsLanguages = {
                 text: "Tải file cài đặt ứng dụng Android (.apk) từ trang web chính thức của nhà phát triển hoặc xuất file từ điện thoại hiện có."
               },
               {
-                title: "Kéo thả file vào DroidVision Pro",
+                title: "Kéo thả file vào Bridge Devices",
                 text: "Chọn toàn bộ hoặc một nhóm điện thoại bạn cần cài đặt trên giao diện. Nhấp nút <strong>\"Cài đặt APK\"</strong> trên menu hoặc kéo file APK từ máy tính rồi thả vào ô quản trị thiết bị."
               },
               {
@@ -183,7 +183,7 @@ window.docsLanguages = {
         content: [
           {
             type: "paragraph",
-            text: "DroidVision Pro cung cấp một cổng API HTTP cục bộ (local API server) chạy ở cổng <code>8080</code> để hỗ trợ các nhà phát triển điều khiển thiết bị thông qua các đoạn script Python, C# hoặc Node.js tự viết."
+            text: "Bridge Devices cung cấp một cổng API HTTP cục bộ (local API server) chạy ở cổng <code>8080</code> để hỗ trợ các nhà phát triển điều khiển thiết bị thông qua các đoạn script Python, C# hoặc Node.js tự viết."
           },
           {
             type: "paragraph",
@@ -210,15 +210,15 @@ window.docsLanguages = {
     sections: [
       {
         id: "docs-intro",
-        title: "Introduction to DroidVision Pro",
+        title: "Introduction to Bridge Devices",
         content: [
           {
             type: "paragraph",
-            text: "Welcome to the <strong>DroidVision Pro</strong> user guide - the leading low latency centralized Android control and management software system today."
+            text: "Welcome to the <strong>Bridge Devices</strong> user guide - the leading low latency centralized Android control and management software system today."
           },
           {
             type: "paragraph",
-            text: "The software allows you to monitor and control the screens of dozens or hundreds of Android devices simultaneously via USB cable connection or local wireless network (Wi-Fi). DroidVision Pro is specially designed for developers, application testers, and MMO (Make Money Online) business individuals to optimize labor productivity."
+            text: "The software allows you to monitor and control the screens of dozens or hundreds of Android devices simultaneously via USB cable connection or local wireless network (Wi-Fi). Bridge Devices is specially designed for developers, application testers, and MMO (Make Money Online) business individuals to optimize labor productivity."
           },
           {
             type: "callout",
@@ -235,7 +235,7 @@ window.docsLanguages = {
         content: [
           {
             type: "paragraph",
-            text: "For DroidVision Pro to recognize and stream screens from your Android phones to your computer, follow these connection preparation steps:"
+            text: "For Bridge Devices to recognize and stream screens from your Android phones to your computer, follow these connection preparation steps:"
           },
           {
             type: "steps",
@@ -278,7 +278,7 @@ window.docsLanguages = {
         content: [
           {
             type: "paragraph",
-            text: "The core feature of DroidVision Pro is the ability to transmit your interaction actions from a master screen (Master Device) to all other sub-devices simultaneously."
+            text: "The core feature of Bridge Devices is the ability to transmit your interaction actions from a master screen (Master Device) to all other sub-devices simultaneously."
           },
           {
             type: "subtitle",
@@ -315,7 +315,7 @@ window.docsLanguages = {
         content: [
           {
             type: "paragraph",
-            text: "DroidVision Pro makes distributing applications to dozens of phones extremely simple without needing to download from the Google Play Store on each device."
+            text: "Bridge Devices makes distributing applications to dozens of phones extremely simple without needing to download from the Google Play Store on each device."
           },
           {
             type: "subtitle",
@@ -329,7 +329,7 @@ window.docsLanguages = {
                 text: "Download the Android application installation file (.apk) from the developer's official website or export it from an existing phone."
               },
               {
-                title: "Drag and drop the file into DroidVision Pro",
+                title: "Drag and drop the file into Bridge Devices",
                 text: "Select all or a group of phones you need to install on the interface. Click the <strong>\"Install APK\"</strong> button on the menu or drag the APK file from the computer and drop it into the device manager."
               },
               {
@@ -388,7 +388,7 @@ window.docsLanguages = {
         content: [
           {
             type: "paragraph",
-            text: "DroidVision Pro provides a local HTTP API port (local API server) running on port <code>8080</code> to support developers in controlling devices through custom Python, C#, or Node.js scripts."
+            text: "Bridge Devices provides a local HTTP API port (local API server) running on port <code>8080</code> to support developers in controlling devices through custom Python, C#, or Node.js scripts."
           },
           {
             type: "paragraph",
@@ -415,15 +415,15 @@ window.docsLanguages = {
     sections: [
       {
         id: "docs-intro",
-        title: "DroidVision Pro 简介",
+        title: "Bridge Devices 简介",
         content: [
           {
             type: "paragraph",
-            text: "欢迎阅读 <strong>DroidVision Pro</strong> 使用说明书。这是目前领先的低延迟安卓集中控制与管理软件系统。"
+            text: "欢迎阅读 <strong>Bridge Devices</strong> 使用说明书。这是目前领先的低延迟安卓集中控制与管理软件系统。"
           },
           {
             type: "paragraph",
-            text: "该软件允许您通过 USB 数据线连接或局域网无线连接 (Wi-Fi) 同时监控和控制数十或数百台安卓设备。DroidVision Pro 专为开发人员、应用程序测试人员和 MMO（网络赚钱）从业人员设计，旨在优化工作效率。"
+            text: "该软件允许您通过 USB 数据线连接或局域网无线连接 (Wi-Fi) 同时监控和控制数十或数百台安卓设备。Bridge Devices 专为开发人员、应用程序测试人员和 MMO（网络赚钱）从业人员设计，旨在优化工作效率。"
           },
           {
             type: "callout",
@@ -440,7 +440,7 @@ window.docsLanguages = {
         content: [
           {
             type: "paragraph",
-            text: "为了让 DroidVision Pro 能够识别您的安卓手机并将其屏幕传输到电脑，请按照以下步骤准备连接："
+            text: "为了让 Bridge Devices 能够识别您的安卓手机并将其屏幕传输到电脑，请按照以下步骤准备连接："
           },
           {
             type: "steps",
@@ -483,7 +483,7 @@ window.docsLanguages = {
         content: [
           {
             type: "paragraph",
-            text: "DroidVision Pro 的核心功能是能够将您在主控手机 (Master Device) 屏幕上的操作同时传输到所有其他子设备。"
+            text: "Bridge Devices 的核心功能是能够将您在主控手机 (Master Device) 屏幕上的操作同时传输到所有其他子设备。"
           },
           {
             type: "subtitle",
@@ -520,7 +520,7 @@ window.docsLanguages = {
         content: [
           {
             type: "paragraph",
-            text: "DroidVision Pro 让应用分发到几十台手机变得极其简单，无需在每台设备上分别打开 Google Play 商店进行下载。"
+            text: "Bridge Devices 让应用分发到几十台手机变得极其简单，无需在每台设备上分别打开 Google Play 商店进行下载。"
           },
           {
             type: "subtitle",
@@ -534,7 +534,7 @@ window.docsLanguages = {
                 text: "从开发者的官方网站下载安卓应用程序安装文件 (.apk) 或从现有手机中导出该文件。"
               },
               {
-                title: "将文件拖放到 DroidVision Pro 中",
+                title: "将文件拖放到 Bridge Devices 中",
                 text: "在界面上选择需要安装应用的全部手机或一组手机。点击菜单上的 <strong>“安装 APK”</strong> 按钮，或者将 APK 文件从电脑拖入设备管理区域。"
               },
               {
@@ -593,7 +593,7 @@ window.docsLanguages = {
         content: [
           {
             type: "paragraph",
-            text: "DroidVision Pro 提供了一个在端口 <code>8080</code> 上运行的本地 HTTP API 端口（本地 API 服务器），支持开发人员通过自定义的 Python、C# 或 Node.js 脚本控制设备。"
+            text: "Bridge Devices 提供了一个在端口 <code>8080</code> 上运行的本地 HTTP API 端口（本地 API 服务器），支持开发人员通过自定义的 Python、C# 或 Node.js 脚本控制设备。"
           },
           {
             type: "paragraph",
@@ -620,15 +620,15 @@ window.docsLanguages = {
     sections: [
       {
         id: "docs-intro",
-        title: "DroidVision Pro 소개",
+        title: "Bridge Devices 소개",
         content: [
           {
             type: "paragraph",
-            text: "현재 가장 선도적인 저지연 안드로이드 통합 제어 및 관리 소프트웨어 시스템인 <strong>DroidVision Pro</strong>의 사용 안내 가이드에 오신 것을 환영합니다."
+            text: "현재 가장 선도적인 저지연 안드로이드 통합 제어 및 관리 소프트웨어 시스템인 <strong>Bridge Devices</strong>의 사용 안내 가이드에 오신 것을 환영합니다."
           },
           {
             type: "paragraph",
-            text: "본 소프트웨어는 USB 케이블 연결 또는 로컬 무선 네트워크(Wi-Fi)를 통해 수십, 수백 대의 안드로이드 기기 화면을 동시에 모니터링하고 제어할 수 있도록 지원합니다. DroidVision Pro는 개발자, 어플리케이션 테스터, MMO(Make Money Online) 비즈니스 개인들의 업무 생산성을 극대화하기 위해 설계되었습니다."
+            text: "본 소프트웨어는 USB 케이블 연결 또는 로컬 무선 네트워크(Wi-Fi)를 통해 수십, 수백 대의 안드로이드 기기 화면을 동시에 모니터링하고 제어할 수 있도록 지원합니다. Bridge Devices는 개발자, 어플리케이션 테스터, MMO(Make Money Online) 비즈니스 개인들의 업무 생산성을 극대화하기 위해 설계되었습니다."
           },
           {
             type: "callout",
@@ -645,7 +645,7 @@ window.docsLanguages = {
         content: [
           {
             type: "paragraph",
-            text: "DroidVision Pro가 안드로이드 폰을 인식하고 화면을 컴퓨터로 전송할 수 있도록 아래의 연결 준비 단계를 진행하십시오:"
+            text: "Bridge Devices가 안드로이드 폰을 인식하고 화면을 컴퓨터로 전송할 수 있도록 아래의 연결 준비 단계를 진행하십시오:"
           },
           {
             type: "steps",
@@ -688,7 +688,7 @@ window.docsLanguages = {
         content: [
           {
             type: "paragraph",
-            text: "DroidVision Pro의 핵심 기능은 메인 화면(Master Device)에서의 조작을 연결된 모든 하위 기기로 실시간 동기화하여 동시에 작동시키는 것입니다."
+            text: "Bridge Devices의 핵심 기능은 메인 화면(Master Device)에서의 조작을 연결된 모든 하위 기기로 실시간 동기화하여 동시에 작동시키는 것입니다."
           },
           {
             type: "subtitle",
@@ -725,7 +725,7 @@ window.docsLanguages = {
         content: [
           {
             type: "paragraph",
-            text: "DroidVision Pro는 각 휴대폰에서 구글 플레이 스토어를 통해 개별 다운로드할 필요 없이 수십 대의 전화기에 어플리케이션을 배포하는 작업을 단순화합니다."
+            text: "Bridge Devices는 각 휴대폰에서 구글 플레이 스토어를 통해 개별 다운로드할 필요 없이 수십 대의 전화기에 어플리케이션을 배포하는 작업을 단순화합니다."
           },
           {
             type: "subtitle",
@@ -739,7 +739,7 @@ window.docsLanguages = {
                 text: "개발자의 공식 웹사이트에서 안드로이드 어플리케이션 설치 파일(.apk)을 다운로드하거나 기존 휴대폰에서 추출합니다."
               },
               {
-                title: "DroidVision Pro에 파일 드래그 앤 드롭",
+                title: "Bridge Devices에 파일 드래그 앤 드롭",
                 text: "인터페이스에서 설치가 필요한 휴대폰 전체 또는 일부 그룹을 선택합니다. 메뉴에서 <strong>\"APK 설치\"</strong> 버튼을 누르거나 PC의 APK 파일을 기기 관리자 영역에 드래그하여 놓습니다."
               },
               {
@@ -798,7 +798,7 @@ window.docsLanguages = {
         content: [
           {
             type: "paragraph",
-            text: "DroidVision Pro는 개발자가 Python, C#, Node.js 스크립트를 통해 장치를 제어할 수 있도록 <code>8080</code> 포트에서 실행되는 로컬 HTTP API 포트(로컬 API 서버)를 제공합니다."
+            text: "Bridge Devices는 개발자가 Python, C#, Node.js 스크립트를 통해 장치를 제어할 수 있도록 <code>8080</code> 포트에서 실행되는 로컬 HTTP API 포트(로컬 API 서버)를 제공합니다."
           },
           {
             type: "paragraph",
@@ -825,15 +825,15 @@ window.docsLanguages = {
     sections: [
       {
         id: "docs-intro",
-        title: "แนะนำ DroidVision Pro",
+        title: "แนะนำ Bridge Devices",
         content: [
           {
             type: "paragraph",
-            text: "ยินดีต้อนรับสู่คู่มือการใช้งาน <strong>DroidVision Pro</strong> - ระบบซอฟต์แวร์ควบคุมและจัดการโทรศัพท์แอนดรอยด์แบบรวมศูนย์ที่มีความหน่วงต่ำชั้นนำในปัจจุบัน"
+            text: "ยินดีต้อนรับสู่คู่มือการใช้งาน <strong>Bridge Devices</strong> - ระบบซอฟต์แวร์ควบคุมและจัดการโทรศัพท์แอนดรอยด์แบบรวมศูนย์ที่มีความหน่วงต่ำชั้นนำในปัจจุบัน"
           },
           {
             type: "paragraph",
-            text: "ซอฟต์แวร์นี้ช่วยให้คุณสามารถตรวจสอบและควบคุมหน้าจอของอุปกรณ์แอนดรอยด์หลายสิบหรือหลายร้อยเครื่องพร้อมกันผ่านการเชื่อมต่อสาย USB หรือเครือข่ายไร้สายท้องถิ่น (Wi-Fi) DroidVision Pro ได้รับการออกแบบมาโดยเฉพาะสำหรับนักพัฒนา ผู้ทดสอบแอปพลิเคชัน และบุคคลทั่วไปที่ทำธุรกิจ MMO (Make Money Online) เพื่อเพิ่มผลผลิตสูงสุดในการทำงาน"
+            text: "ซอฟต์แวร์นี้ช่วยให้คุณสามารถตรวจสอบและควบคุมหน้าจอของอุปกรณ์แอนดรอยด์หลายสิบหรือหลายร้อยเครื่องพร้อมกันผ่านการเชื่อมต่อสาย USB หรือเครือข่ายไร้สายท้องถิ่น (Wi-Fi) Bridge Devices ได้รับการออกแบบมาโดยเฉพาะสำหรับนักพัฒนา ผู้ทดสอบแอปพลิเคชัน และบุคคลทั่วไปที่ทำธุรกิจ MMO (Make Money Online) เพื่อเพิ่มผลผลิตสูงสุดในการทำงาน"
           },
           {
             type: "callout",
@@ -850,7 +850,7 @@ window.docsLanguages = {
         content: [
           {
             type: "paragraph",
-            text: "เพื่อให้ DroidVision Pro สามารถตรวจจับและจำลองหน้าจอจากโทรศัพท์แอนดรอยด์ของคุณไปยังคอมพิวเตอร์ได้ โปรดทำตามขั้นตอนการเตรียมเชื่อมต่อต่อไปนี้:"
+            text: "เพื่อให้ Bridge Devices สามารถตรวจจับและจำลองหน้าจอจากโทรศัพท์แอนดรอยด์ของคุณไปยังคอมพิวเตอร์ได้ โปรดทำตามขั้นตอนการเตรียมเชื่อมต่อต่อไปนี้:"
           },
           {
             type: "steps",
@@ -893,7 +893,7 @@ window.docsLanguages = {
         content: [
           {
             type: "paragraph",
-            text: "ฟีเจอร์หลักของ DroidVision Pro คือความสามารถในการส่งการกระทำและปฏิสัมพันธ์จากหน้าจอหลัก (Master Device) ไปยังอุปกรณ์ย่อยอื่นทั้งหมดพร้อมกันในเวลาเดียวกัน"
+            text: "ฟีเจอร์หลักของ Bridge Devices คือความสามารถในการส่งการกระทำและปฏิสัมพันธ์จากหน้าจอหลัก (Master Device) ไปยังอุปกรณ์ย่อยอื่นทั้งหมดพร้อมกันในเวลาเดียวกัน"
           },
           {
             type: "subtitle",
@@ -930,7 +930,7 @@ window.docsLanguages = {
         content: [
           {
             type: "paragraph",
-            text: "DroidVision Pro ช่วยให้การส่งแอปพลิเคชันไปยังโทรศัพท์หลายสิบเครื่องกลายเป็นเรื่องง่าย โดยไม่จำเป็นต้องค้นหาเพื่อดาวน์โหลดจาก Google Play Store ในทุกอุปกรณ์"
+            text: "Bridge Devices ช่วยให้การส่งแอปพลิเคชันไปยังโทรศัพท์หลายสิบเครื่องกลายเป็นเรื่องง่าย โดยไม่จำเป็นต้องค้นหาเพื่อดาวน์โหลดจาก Google Play Store ในทุกอุปกรณ์"
           },
           {
             type: "subtitle",
@@ -944,7 +944,7 @@ window.docsLanguages = {
                 text: "ดาวน์โหลดไฟล์ติดตั้งสำหรับระบบแอนดรอยด์ (.apk) จากเว็บไซต์ทางการของผู้พัฒนาแอปพลิเคชัน หรือส่งออกไฟล์จากโทรศัพท์ที่มีอยู่แล้ว"
               },
               {
-                title: "ลากและวางไฟล์ลงใน DroidVision Pro",
+                title: "ลากและวางไฟล์ลงใน Bridge Devices",
                 text: "เลือกโทรศัพท์ทั้งหมดหรือกลุ่มเครื่องที่คุณต้องการติดตั้งบนหน้าจอการทำงาน คลิกปุ่ม <strong>\"ติดตั้ง APK\"</strong> บนเมนู หรือลากไฟล์ APK จากพีซีมาวางในพื้นที่การจัดการอุปกรณ์"
               },
               {
@@ -1003,7 +1003,7 @@ window.docsLanguages = {
         content: [
           {
             type: "paragraph",
-            text: "DroidVision Pro มีระบบ HTTP API ภายใน (Local API Server) ที่ทำงานผ่านพอร์ต <code>8080</code> เพื่อรองรับนักพัฒนาที่ต้องการควบคุมเครื่องผ่านภาษา Python, C# หรือ Node.js"
+            text: "Bridge Devices มีระบบ HTTP API ภายใน (Local API Server) ที่ทำงานผ่านพอร์ต <code>8080</code> เพื่อรองรับนักพัฒนาที่ต้องการควบคุมเครื่องผ่านภาษา Python, C# หรือ Node.js"
           },
           {
             type: "paragraph",
@@ -1030,15 +1030,15 @@ window.docsLanguages = {
     sections: [
       {
         id: "docs-intro",
-        title: "Pengenalan DroidVision Pro",
+        title: "Pengenalan Bridge Devices",
         content: [
           {
             type: "paragraph",
-            text: "Selamat datang di panduan penggunaan <strong>DroidVision Pro</strong> - sistem perangkat lunak kontrol dan manajemen terpusat Android berlatensi rendah yang terdepan saat ini."
+            text: "Selamat datang di panduan penggunaan <strong>Bridge Devices</strong> - sistem perangkat lunak kontrol dan manajemen terpusat Android berlatensi rendah yang terdepan saat ini."
           },
           {
             type: "paragraph",
-            text: "Perangkat lunak ini memungkinkan Anda memantau dan mengontrol layar puluhan atau ratusan perangkat Android secara bersamaan melalui koneksi kabel USB atau jaringan nirkabel lokal (Wi-Fi). DroidVision Pro dirancang khusus untuk pengembang, penguji aplikasi, dan pelaku bisnis MMO (Make Money Online) untuk mengoptimalkan produktivitas kerja."
+            text: "Perangkat lunak ini memungkinkan Anda memantau dan mengontrol layar puluhan atau ratusan perangkat Android secara bersamaan melalui koneksi kabel USB atau jaringan nirkabel lokal (Wi-Fi). Bridge Devices dirancang khusus untuk pengembang, penguji aplikasi, dan pelaku bisnis MMO (Make Money Online) untuk mengoptimalkan produktivitas kerja."
           },
           {
             type: "callout",
@@ -1055,7 +1055,7 @@ window.docsLanguages = {
         content: [
           {
             type: "paragraph",
-            text: "Agar DroidVision Pro dapat mengenali dan mentransmisikan layar dari HP Android Anda ke komputer, ikuti langkah-langkah persiapan berikut ini:"
+            text: "Agar Bridge Devices dapat mengenali dan mentransmisikan layar dari HP Android Anda ke komputer, ikuti langkah-langkah persiapan berikut ini:"
           },
           {
             type: "steps",
@@ -1098,7 +1098,7 @@ window.docsLanguages = {
         content: [
           {
             type: "paragraph",
-            text: "Fitur utama DroidVision Pro adalah kemampuan untuk menyinkronkan tindakan interaksi Anda dari satu layar induk (Master Device) ke semua HP anak secara bersamaan."
+            text: "Fitur utama Bridge Devices adalah kemampuan untuk menyinkronkan tindakan interaksi Anda dari satu layar induk (Master Device) ke semua HP anak secara bersamaan."
           },
           {
             type: "subtitle",
@@ -1135,7 +1135,7 @@ window.docsLanguages = {
         content: [
           {
             type: "paragraph",
-            text: "DroidVision Pro mempermudah distribusi aplikasi ke puluhan ponsel tanpa perlu mengunduh secara manual dari Google Play Store pada setiap HP."
+            text: "Bridge Devices mempermudah distribusi aplikasi ke puluhan ponsel tanpa perlu mengunduh secara manual dari Google Play Store pada setiap HP."
           },
           {
             type: "subtitle",
@@ -1149,7 +1149,7 @@ window.docsLanguages = {
                 text: "Unduh file instalasi aplikasi Android (.apk) dari situs web resmi pengembang atau ekspor file dari ponsel yang sudah ada."
               },
               {
-                title: "Seret dan taruh file ke DroidVision Pro",
+                title: "Seret dan taruh file ke Bridge Devices",
                 text: "Pilih semua ponsel atau kelompok ponsel yang ingin Anda pasangi aplikasi. Klik tombol <strong>\"Instal APK\"</strong> pada menu atau seret file APK dari komputer dan lepaskan di area manajemen perangkat."
               },
               {
@@ -1208,7 +1208,7 @@ window.docsLanguages = {
         content: [
           {
             type: "paragraph",
-            text: "DroidVision Pro menyediakan port API HTTP lokal (server API lokal) yang berjalan pada port <code>8080</code> untuk memudahkan pengembang mengontrol perangkat melalui skrip Python, C#, atau Node.js kustom."
+            text: "Bridge Devices menyediakan port API HTTP lokal (server API lokal) yang berjalan pada port <code>8080</code> untuk memudahkan pengembang mengontrol perangkat melalui skrip Python, C#, atau Node.js kustom."
           },
           {
             type: "paragraph",
@@ -1235,15 +1235,15 @@ window.docsLanguages = {
     sections: [
       {
         id: "docs-intro",
-        title: "Введение в DroidVision Pro",
+        title: "Введение в Bridge Devices",
         content: [
           {
             type: "paragraph",
-            text: "Добро пожаловать в руководство пользователя <strong>DroidVision Pro</strong> — ведущей на сегодняшний день программной системы для централизованного управления Android-устройствами с низкой задержкой."
+            text: "Добро пожаловать в руководство пользователя <strong>Bridge Devices</strong> — ведущей на сегодняшний день программной системы для централизованного управления Android-устройствами с низкой задержкой."
           },
           {
             type: "paragraph",
-            text: "Программное обеспечение позволяет отслеживать и контролировать экраны десятков или сотен устройств Android одновременно через подключение по USB-кабелю или локальной беспроводной сети (Wi-Fi). DroidVision Pro специально разработано для разработчиков, тестировщиков приложений и предпринимателей в сфере MMO (Make Money Online) для оптимизации производительности труда."
+            text: "Программное обеспечение позволяет отслеживать и контролировать экраны десятков или сотен устройств Android одновременно через подключение по USB-кабелю или локальной беспроводной сети (Wi-Fi). Bridge Devices специально разработано для разработчиков, тестировщиков приложений и предпринимателей в сфере MMO (Make Money Online) для оптимизации производительности труда."
           },
           {
             type: "callout",
@@ -1260,7 +1260,7 @@ window.docsLanguages = {
         content: [
           {
             type: "paragraph",
-            text: "Чтобы DroidVision Pro могло распознавать и транслировать экраны с ваших телефонов Android на компьютер, выполните следующие шаги по подготовке к подключению:"
+            text: "Чтобы Bridge Devices могло распознавать и транслировать экраны с ваших телефонов Android на компьютер, выполните следующие шаги по подготовке к подключению:"
           },
           {
             type: "steps",
@@ -1303,7 +1303,7 @@ window.docsLanguages = {
         content: [
           {
             type: "paragraph",
-            text: "Основная функция DroidVision Pro — возможность транслировать ваши действия с одного главного экрана (Master Device) на все остальные подчиненные устройства одновременно."
+            text: "Основная функция Bridge Devices — возможность транслировать ваши действия с одного главного экрана (Master Device) на все остальные подчиненные устройства одновременно."
           },
           {
             type: "subtitle",
@@ -1340,7 +1340,7 @@ window.docsLanguages = {
         content: [
           {
             type: "paragraph",
-            text: "DroidVision Pro делает распространение приложений на десятки телефонов чрезвычайно простым, без необходимости скачивания из Google Play Store на каждом устройстве отдельно."
+            text: "Bridge Devices делает распространение приложений на десятки телефонов чрезвычайно простым, без необходимости скачивания из Google Play Store на каждом устройстве отдельно."
           },
           {
             type: "subtitle",
@@ -1354,7 +1354,7 @@ window.docsLanguages = {
                 text: "Скачайте установочный файл Android-приложения (.apk) с официального сайта разработчика или экспортируйте его с существующего телефона."
               },
               {
-                title: "Перетащите файл в DroidVision Pro",
+                title: "Перетащите файл в Bridge Devices",
                 text: "Выберите на интерфейсе все телефоны или группу телефонов, на которые необходимо установить приложение. Нажмите кнопку <strong>\"Установить APK\"</strong> в меню или перетащите файл APK с компьютера и отпустите его в области диспетчера устройств."
               },
               {
@@ -1413,7 +1413,7 @@ window.docsLanguages = {
         content: [
           {
             type: "paragraph",
-            text: "DroidVision Pro предоставляет локальный HTTP API порт (локальный сервер API), работающий на порту <code>8080</code>, для поддержки разработчиков в управлении устройствами с помощью скриптов Python, C# или Node.js."
+            text: "Bridge Devices предоставляет локальный HTTP API порт (локальный сервер API), работающий на порту <code>8080</code>, для поддержки разработчиков в управлении устройствами с помощью скриптов Python, C# или Node.js."
           },
           {
             type: "paragraph",
@@ -1440,15 +1440,15 @@ window.docsLanguages = {
     sections: [
       {
         id: "docs-intro",
-        title: "DroidVision Pro का परिचय",
+        title: "Bridge Devices का परिचय",
         content: [
           {
             type: "paragraph",
-            text: "<strong>DroidVision Pro</strong> उपयोगकर्ता मार्गदर्शिका में आपका स्वागत है - जो आज की अग्रणी कम विलंबता वाली केंद्रीकृत एंड्रॉइड नियंत्रण और प्रबंधन सॉफ्टवेयर प्रणाली है।"
+            text: "<strong>Bridge Devices</strong> उपयोगकर्ता मार्गदर्शिका में आपका स्वागत है - जो आज की अग्रणी कम विलंबता वाली केंद्रीकृत एंड्रॉइड नियंत्रण और प्रबंधन सॉफ्टवेयर प्रणाली है।"
           },
           {
             type: "paragraph",
-            text: "यह सॉफ्टवेयर आपको USB केबल कनेक्शन या स्थानीय वायरलेस नेटवर्क (Wi-Fi) के माध्यम से एक साथ दर्जनों या सैकड़ों एंड्रॉइड डिवाइसों की स्क्रीन की निगरानी और नियंत्रण करने की अनुमति देता है। DroidVision Pro को विशेष रूप से डेवलपर्स, एप्लिकेशन परीक्षकों और MMO (Make Money Online) व्यावसायिक व्यक्तियों के लिए श्रम उत्पादकता को अनुकूलित करने के लिए डिज़ाइन किया गया है।"
+            text: "यह सॉफ्टवेयर आपको USB केबल कनेक्शन या स्थानीय वायरलेस नेटवर्क (Wi-Fi) के माध्यम से एक साथ दर्जनों या सैकड़ों एंड्रॉइड डिवाइसों की स्क्रीन की निगरानी और नियंत्रण करने की अनुमति देता है। Bridge Devices को विशेष रूप से डेवलपर्स, एप्लिकेशन परीक्षकों और MMO (Make Money Online) व्यावसायिक व्यक्तियों के लिए श्रम उत्पादकता को अनुकूलित करने के लिए डिज़ाइन किया गया है।"
           },
           {
             type: "callout",
@@ -1465,7 +1465,7 @@ window.docsLanguages = {
         content: [
           {
             type: "paragraph",
-            text: "DroidVision Pro द्वारा आपके एंड्रॉइड फोन को पहचानने और उसकी स्क्रीन को कंप्यूटर पर प्रसारित करने के लिए, इन कनेक्शन तैयारी चरणों का पालन करें:"
+            text: "Bridge Devices द्वारा आपके एंड्रॉइड फोन को पहचानने और उसकी स्क्रीन को कंप्यूटर पर प्रसारित करने के लिए, इन कनेक्शन तैयारी चरणों का पालन करें:"
           },
           {
             type: "steps",
@@ -1508,7 +1508,7 @@ window.docsLanguages = {
         content: [
           {
             type: "paragraph",
-            text: "DroidVision Pro की मुख्य विशेषता एक मास्टर स्क्रीन (Master Device) से अन्य सभी उप-डिवाइसों पर आपके इंटरैक्शन कार्यों को एक साथ सिंक्रनाइज़ करने की क्षमता है।"
+            text: "Bridge Devices की मुख्य विशेषता एक मास्टर स्क्रीन (Master Device) से अन्य सभी उप-डिवाइसों पर आपके इंटरैक्शन कार्यों को एक साथ सिंक्रनाइज़ करने की क्षमता है।"
           },
           {
             type: "subtitle",
@@ -1545,7 +1545,7 @@ window.docsLanguages = {
         content: [
           {
             type: "paragraph",
-            text: "DroidVision Pro प्रत्येक फोन पर Google Play Store से व्यक्तिगत रूप से डाउनलोड करने की आवश्यकता के बिना दर्जनों फोनों पर एप्लिकेशन वितरित करने के कार्य को सरल बनाता है।"
+            text: "Bridge Devices प्रत्येक फोन पर Google Play Store से व्यक्तिगत रूप से डाउनलोड करने की आवश्यकता के बिना दर्जनों फोनों पर एप्लिकेशन वितरित करने के कार्य को सरल बनाता है।"
           },
           {
             type: "subtitle",
@@ -1559,7 +1559,7 @@ window.docsLanguages = {
                 text: "डेवलपर की आधिकारिक वेबसाइट से एंड्रॉइड एप्लिकेशन इंस्टॉल फ़ाइल (.apk) डाउनलोड करें या मौजूदा फोन से इसे निर्यात करें।"
               },
               {
-                title: "DroidVision Pro में फ़ाइल ड्रैग और ड्रॉप करें",
+                title: "Bridge Devices में फ़ाइल ड्रैग और ड्रॉप करें",
                 text: "इंटरफ़ेस पर उन सभी या चुनिंदा फोन को चुनें जिन पर इंस्टॉल करने की आवश्यकता है। मेनू पर <strong>\"APK इंस्टॉल\"</strong> बटन दबाएं या पीसी की एपीके फ़ाइल को डिवाइस मैनेजर क्षेत्र में खींचकर छोड़ दें।"
               },
               {
@@ -1618,7 +1618,7 @@ window.docsLanguages = {
         content: [
           {
             type: "paragraph",
-            text: "DroidVision Pro डेवलपर्स को Python, C#, Node.js स्क्रिप्ट के माध्यम से उपकरणों को नियंत्रित करने में सहायता के लिए <code>8080</code> पोर्ट पर चलने वाले स्थानीय HTTP API पोर्ट (स्थानीय API सर्वर) प्रदान करता है।"
+            text: "Bridge Devices डेवलपर्स को Python, C#, Node.js स्क्रिप्ट के माध्यम से उपकरणों को नियंत्रित करने में सहायता के लिए <code>8080</code> पोर्ट पर चलने वाले स्थानीय HTTP API पोर्ट (स्थानीय API सर्वर) प्रदान करता है।"
           },
           {
             type: "paragraph",

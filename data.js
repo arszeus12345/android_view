@@ -2,8 +2,8 @@
 window.productLanguages = {
   vi: {
     brand: {
-      name: "DroidVision Pro",
-      logoText: "DroidVision",
+      name: "Bridge Devices",
+      logoText: "Bridge Devices",
       logoIcon: "fa-mobile-alt",
       slogan: "Hệ thống điều khiển & tương tác Android tập trung đỉnh cao"
     },
@@ -38,7 +38,7 @@ window.productLanguages = {
         {
           number: "02",
           icon: "fas fa-desktop",
-          title: "Bật DroidVision Pro",
+          title: "Bật Bridge Devices",
           desc: "Phần mềm tự động phát hiện, hiển thị lưới điện thoại tức thì trên PC."
         },
         {
@@ -61,12 +61,12 @@ window.productLanguages = {
       },
       {
         id: "bulk-file",
-        icon: "fa-folder-open",
-        title: "Truyền Tệp & Cài APK Hàng Loạt",
-        description: "Truyền tải tài liệu, hình ảnh, video xuống toàn bộ máy con. Cài đặt và gỡ bỏ ứng dụng APK chỉ với 1 nút bấm đơn giản.",
-        detailTitle: "Kéo thả cài đặt ứng dụng siêu tốc",
-        detailDesc: "Bạn chỉ cần chọn các thiết bị, nhấn nút cài đặt hoặc kéo tệp APK thả trực tiếp vào giao diện, phần mềm sẽ tự động phân phối và cài đặt song song trên tất cả điện thoại kết nối.",
-        image: "images/feature_automation.png"
+        icon: "fa-project-diagram",
+        title: "Auto Flow Kéo Thả",
+        description: "Thiết lập kịch bản tự động hóa trực quan. Tự động mở ứng dụng, tương tác, lướt web và chạy đa nhiệm song song trên hàng loạt thiết bị.",
+        detailTitle: "Thiết kế kịch bản tự động không cần code",
+        detailDesc: "Với giao diện kéo thả trực quan (như click theo tọa độ, nhập văn bản, chờ phần tử, vuốt màn hình...), bạn dễ dàng xây dựng luồng công việc tự động hóa cực nhanh cho hàng trăm điện thoại chạy cùng lúc.",
+        image: "images/auto_keo_tha.jpg"
       },
       {
         id: "group-manage",
@@ -75,7 +75,7 @@ window.productLanguages = {
         description: "Phân loại danh sách điện thoại theo nhóm công việc, theo dõi chi tiết tình trạng pin, nhiệt độ và kết nối tập trung khoa học.",
         detailTitle: "Giám sát trạng thái phần cứng thời gian thực",
         detailDesc: "Hệ thống tự động thống kê dung lượng pin, nhiệt độ thiết bị và dung lượng RAM trống để cảnh báo kịp thời nếu có điện thoại hoạt động quá tải hoặc gặp lỗi kết nối.",
-        image: "images/feature_proxy.png"
+        image: "images/nhom.jpg"
       },
       {
         id: "bulk",
@@ -84,7 +84,7 @@ window.productLanguages = {
         description: "Nhấp chuột, gõ phím từ máy chủ, tất cả điện thoại con sẽ thực thi cùng lúc. Dọn dẹp rác bộ nhớ chỉ bằng 1 nút bấm.",
         detailTitle: "Đồng bộ hóa 100% thời gian thực",
         detailDesc: "Khởi động ứng dụng đồng loạt, gõ văn bản từ bàn phím PC tự động phân phối xuống các điện thoại. Tiết kiệm 95% thời gian so với làm thủ công từng máy.",
-        image: "images/home_polished.png"
+        image: "images/dong_bo.jpg"
       }
     ],
     gallery: [
@@ -94,14 +94,14 @@ window.productLanguages = {
         src: "images/home_polished.png"
       },
       {
-        title: "Truyền tệp & cài APK hàng loạt",
-        desc: "Công cụ hỗ trợ truyền dữ liệu và phân phối ứng dụng nhanh.",
-        src: "images/feature_automation.png"
+        title: "Auto Flow Kéo Thả",
+        desc: "Giao diện kéo thả thiết kế kịch bản tự động hóa trực quan.",
+        src: "images/auto_keo_tha.jpg"
       },
       {
         title: "Quản lý thiết bị theo nhóm",
         desc: "Sắp xếp danh sách điện thoại khoa học theo từng danh mục.",
-        src: "images/feature_proxy.png"
+        src: "images/nhom.jpg"
       }
     ],
     pricing: {
@@ -110,10 +110,10 @@ window.productLanguages = {
       plans: [
         {
           name: "Gói Starter",
-          price: "299.000đ",
-          term: "/ tháng",
+          price: "Liên hệ",
+          term: "",
           description: "Phù hợp cho cá nhân kinh doanh nhỏ, mới tiếp cận MMO.",
-          devices: "Hỗ trợ tối đa 10 thiết bị Android",
+          devices: "Hỗ trợ tối đa 150 thiết bị Android",
           features: [
             "Xem màn hình thời gian thực",
             "Điều khiển chuột & bàn phím đồng bộ",
@@ -127,10 +127,10 @@ window.productLanguages = {
         },
         {
           name: "Gói Professional",
-          price: "799.000đ",
-          term: "/ tháng",
+          price: "Liên hệ",
+          term: "",
           description: "Lựa chọn tốt nhất cho các studio nuôi tài khoản chuyên nghiệp.",
-          devices: "Hỗ trợ tối đa 50 thiết bị Android",
+          devices: "Hỗ trợ tối đa 200 thiết bị Android",
           features: [
             "Toàn bộ tính năng gói Starter",
             "Tự động sắp xếp lưới màn hình thông minh",
@@ -147,7 +147,7 @@ window.productLanguages = {
           price: "Liên hệ",
           term: "",
           description: "Dành riêng cho doanh nghiệp cần giải pháp tùy chỉnh riêng.",
-          devices: "Không giới hạn thiết bị kết nối",
+          devices: "Hỗ trợ tối đa 300 thiết bị Android",
           features: [
             "Toàn bộ tính năng gói Professional",
             "Hỗ trợ build code tùy chỉnh theo dự án",
@@ -164,7 +164,7 @@ window.productLanguages = {
     faqs: [
       {
         q: "Phần mềm có cần Root điện thoại Android không?",
-        a: "Hoàn toàn không cần root. DroidVision Pro hoạt động qua kết nối ADB chuẩn của Google. Thiết bị của bạn giữ nguyên độ an toàn, bảo hành hãng và tránh bị các app phát hiện dấu hiệu can thiệp hệ thống."
+        a: "Hoàn toàn không cần root. Bridge Devices hoạt động qua kết nối ADB chuẩn của Google. Thiết bị của bạn giữ nguyên độ an toàn, bảo hành hãng và tránh bị các app phát hiện dấu hiệu can thiệp hệ thống."
       },
       {
         q: "Làm cách nào để truyền file hình ảnh hoặc video xuống nhiều điện thoại?",
@@ -180,7 +180,7 @@ window.productLanguages = {
       }
     ],
     footer: {
-      about: "DroidVision Pro là thương hiệu hàng đầu cung cấp giải pháp quản lý di động tập trung cho các MMOer và Tester tại Việt Nam.",
+      about: "Bridge Devices là thương hiệu hàng đầu cung cấp giải pháp quản lý di động tập trung cho các MMOer và Tester tại Việt Nam.",
       contact: {
         phone: "0987.654.321",
         email: "support@droidvision.vn",
@@ -198,12 +198,12 @@ window.productLanguages = {
         { icon: "fa-youtube", href: "#" },
         { icon: "fa-telegram-plane", href: "#" }
       ],
-      copyright: "© 2026 DroidVision Pro. Tất cả quyền được bảo lưu."
+      copyright: "© 2026 Bridge Devices. Tất cả quyền được bảo lưu."
     },
     ui: {
-      title: "DroidVision Pro - Điều khiển & Quản lý điện thoại Android tập trung",
+      title: "Bridge Devices - Điều khiển & Quản lý điện thoại Android tập trung",
       description: "Hệ thống điều khiển điện thoại Android tập trung độ trễ thấp dưới 15ms. Tự động hóa kịch bản, nuôi tài khoản và đổi proxy mạng độc lập. Tối ưu cho MMO và thử nghiệm.",
-      simTitle: "DroidVision Pro - Điều khiển trung tâm (Đang chạy...)",
+      simTitle: "Bridge Devices - Điều khiển trung tâm (Đang chạy...)",
       simActiveCount: "9 Online",
       simSidebarTitle: "BẢNG ĐIỀU KHIỂN",
       simBtnSync: "Đồng bộ Click",
@@ -243,8 +243,8 @@ window.productLanguages = {
   },
   en: {
     brand: {
-      name: "DroidVision Pro",
-      logoText: "DroidVision",
+      name: "Bridge Devices",
+      logoText: "Bridge Devices",
       logoIcon: "fa-mobile-alt",
       slogan: "Ultimate Android Centralized Control & Interaction System"
     },
@@ -279,7 +279,7 @@ window.productLanguages = {
         {
           number: "02",
           icon: "fas fa-desktop",
-          title: "Launch DroidVision Pro",
+          title: "Launch Bridge Devices",
           desc: "The software auto-detects and displays the phone grid instantly on PC."
         },
         {
@@ -302,12 +302,12 @@ window.productLanguages = {
       },
       {
         id: "bulk-file",
-        icon: "fa-folder-open",
-        title: "Bulk File & APK Transfer",
-        description: "Transfer files, images, videos to all sub-devices. Install and uninstall APK apps with a single click.",
-        detailTitle: "Drag & Drop Superfast App Install",
-        detailDesc: "Just select your devices, click install or drag-and-drop APK files directly. The software automatically distributes and installs in parallel across all connected phones.",
-        image: "images/feature_automation.png"
+        icon: "fa-project-diagram",
+        title: "Drag & Drop Auto Flow",
+        description: "Design visual drag-and-drop automation scripts. Automatically open apps, interact, swipe, and run parallel multi-tasks on all connected devices.",
+        detailTitle: "No-Code Visual Automation Workflow",
+        detailDesc: "Build automated tasks easily using drag-and-drop nodes (such as click coordinate, type text, wait element, swipe screen). Scale execution instantly across hundreds of phones.",
+        image: "images/auto_keo_tha.jpg"
       },
       {
         id: "group-manage",
@@ -316,7 +316,7 @@ window.productLanguages = {
         description: "Categorize phones by task groups, monitor battery status, temperature, and centralized connection details.",
         detailTitle: "Real-time Hardware Status Monitoring",
         detailDesc: "Automatically tracks battery level, device temperature, and free RAM to trigger alerts if any phone is overloaded or disconnected.",
-        image: "images/feature_proxy.png"
+        image: "images/nhom.jpg"
       },
       {
         id: "bulk",
@@ -325,7 +325,7 @@ window.productLanguages = {
         description: "Click, scroll, and type on the master PC and all sub-phones execute instantly. Clear memory cache with one click.",
         detailTitle: "100% Real-time Synchronization",
         detailDesc: "Launch apps simultaneously, type text from your PC keyboard and distribute it to all phones. Save 95% of your time compared to manual operations.",
-        image: "images/home_polished.png"
+        image: "images/dong_bo.jpg"
       }
     ],
     gallery: [
@@ -335,14 +335,14 @@ window.productLanguages = {
         src: "images/home_polished.png"
       },
       {
-        title: "Bulk File & APK Transfer",
-        desc: "Helper tool for fast data transfer and app distribution.",
-        src: "images/feature_automation.png"
+        title: "Drag & Drop Auto Flow",
+        desc: "Visual drag-and-drop interface for designing automation scripts.",
+        src: "images/auto_keo_tha.jpg"
       },
       {
         title: "Group Device Management",
         desc: "Organize phone list scientifically by custom categories.",
-        src: "images/feature_proxy.png"
+        src: "images/nhom.jpg"
       }
     ],
     pricing: {
@@ -351,10 +351,10 @@ window.productLanguages = {
       plans: [
         {
           name: "Starter Plan",
-          price: "$12",
-          term: "/ month",
+          price: "Contact Us",
+          term: "",
           description: "Suitable for small business individuals starting out with MMO.",
-          devices: "Supports up to 10 Android devices",
+          devices: "Supports up to 150 Android devices",
           features: [
             "Real-time screen mirroring",
             "Synchronized mouse & keyboard control",
@@ -368,10 +368,10 @@ window.productLanguages = {
         },
         {
           name: "Professional Plan",
-          price: "$32",
-          term: "/ month",
+          price: "Contact Us",
+          term: "",
           description: "Best choice for professional account farming studios.",
-          devices: "Supports up to 50 Android devices",
+          devices: "Supports up to 200 Android devices",
           features: [
             "All Starter Plan features",
             "Smart auto-grid screen layout",
@@ -388,7 +388,7 @@ window.productLanguages = {
           price: "Contact Us",
           term: "",
           description: "Tailored solutions for enterprises needing custom integration.",
-          devices: "Unlimited connected devices",
+          devices: "Supports up to 300 Android devices",
           features: [
             "All Professional Plan features",
             "Custom code building matching projects",
@@ -405,7 +405,7 @@ window.productLanguages = {
     faqs: [
       {
         q: "Does the software require rooting the Android phones?",
-        a: "Absolutely no root required. DroidVision Pro works through Google's standard ADB connection. Your devices remain secure, keep their official warranty, and avoid detection by apps."
+        a: "Absolutely no root required. Bridge Devices works through Google's standard ADB connection. Your devices remain secure, keep their official warranty, and avoid detection by apps."
       },
       {
         q: "How do I transfer image or video files to multiple phones?",
@@ -421,7 +421,7 @@ window.productLanguages = {
       }
     ],
     footer: {
-      about: "DroidVision Pro is the leading provider of centralized mobile management solutions for MMOers and testers.",
+      about: "Bridge Devices is the leading provider of centralized mobile management solutions for MMOers and testers.",
       contact: {
         phone: "0987.654.321",
         email: "support@droidvision.vn",
@@ -439,12 +439,12 @@ window.productLanguages = {
         { icon: "fa-youtube", href: "#" },
         { icon: "fa-telegram-plane", href: "#" }
       ],
-      copyright: "© 2026 DroidVision Pro. All rights reserved."
+      copyright: "© 2026 Bridge Devices. All rights reserved."
     },
     ui: {
-      title: "DroidVision Pro - Centralized Android Control & Management",
+      title: "Bridge Devices - Centralized Android Control & Management",
       description: "Low latency (<15ms) centralized Android control system. Script automation, account farming, and network proxy changes. Optimized for MMO and testing.",
-      simTitle: "DroidVision Pro - Central Control (Running...)",
+      simTitle: "Bridge Devices - Central Control (Running...)",
       simActiveCount: "9 Online",
       simSidebarTitle: "CONTROL PANEL",
       simBtnSync: "Sync Click",
@@ -484,8 +484,8 @@ window.productLanguages = {
   },
   zh: {
     brand: {
-      name: "DroidVision Pro",
-      logoText: "DroidVision",
+      name: "Bridge Devices",
+      logoText: "Bridge Devices",
       logoIcon: "fa-mobile-alt",
       slogan: "极致安卓集中控制与交互系统"
     },
@@ -520,7 +520,7 @@ window.productLanguages = {
         {
           number: "02",
           icon: "fas fa-desktop",
-          title: "启动 DroidVision Pro",
+          title: "启动 Bridge Devices",
           desc: "软件自动检测并在 PC 上即时显示手机网格。"
         },
         {
@@ -543,12 +543,12 @@ window.productLanguages = {
       },
       {
         id: "bulk-file",
-        icon: "fa-folder-open",
-        title: "批量文件与 APK 传输",
-        description: "将文件、图片、视频传输到所有子设备。一键安装和卸载 APK 应用。",
-        detailTitle: "拖拽超快安装应用",
-        detailDesc: "只需选择您的设备，点击安装或直接拖拽 APK 文件。软件自动在所有连接的手机上并行分发和安装。",
-        image: "images/feature_automation.png"
+        icon: "fa-project-diagram",
+        title: "可视化拖拽式自动流",
+        description: "设计直观的拖拽式自动化脚本。在多台设备上自动打开应用、交互、浏览并并行运行多任务。",
+        detailTitle: "无代码可视化自动工作流",
+        detailDesc: "使用拖拽式节点（如点击坐标、输入文本、等待元素、滑动屏幕）轻松构建自动化任务。在数百台手机上即时扩展执行。",
+        image: "images/auto_keo_tha.jpg"
       },
       {
         id: "group-manage",
@@ -557,7 +557,7 @@ window.productLanguages = {
         description: "按任务组对手机进行分类，监控电池状态、温度和集中连接详情。",
         detailTitle: "实时硬件状态监控",
         detailDesc: "自动跟踪电量、设备温度和空闲内存，在手机过载或断开连接时及时发出警报。",
-        image: "images/feature_proxy.png"
+        image: "images/nhom.jpg"
       },
       {
         id: "bulk",
@@ -566,7 +566,7 @@ window.productLanguages = {
         description: "在主控 PC 上点击、滚动和输入，所有子手机立即执行。一键清理内存缓存。",
         detailTitle: "100% 实时同步",
         detailDesc: "同时启动应用程序，从 PC 键盘输入文本并自动分发到所有手机。与手动操作相比节省 95% 的时间。",
-        image: "images/home_polished.png"
+        image: "images/dong_bo.jpg"
       }
     ],
     gallery: [
@@ -576,14 +576,14 @@ window.productLanguages = {
         src: "images/home_polished.png"
       },
       {
-        title: "批量文件与 APK 传输",
-        desc: "快速数据传输和应用分发的辅助工具。",
-        src: "images/feature_automation.png"
+        title: "可视化拖拽式自动流",
+        desc: "用于设计自动化脚本的可视化拖拽界面。",
+        src: "images/auto_keo_tha.jpg"
       },
       {
         title: "分组设备管理",
         desc: "按自定义类别科学整理手机列表。",
-        src: "images/feature_proxy.png"
+        src: "images/nhom.jpg"
       }
     ],
     pricing: {
@@ -592,10 +592,10 @@ window.productLanguages = {
       plans: [
         {
           name: "Starter 计划",
-          price: "85元",
-          term: "/ 月",
+          price: "联系我们",
+          term: "",
           description: "适合刚开始做 MMO 的个人小业务。",
-          devices: "支持最多 10 台安卓设备",
+          devices: "支持最多 150 台安卓设备",
           features: [
             "实时屏幕镜像",
             "鼠标和键盘同步控制",
@@ -609,10 +609,10 @@ window.productLanguages = {
         },
         {
           name: "Professional 计划",
-          price: "228元",
-          term: "/ 月",
+          price: "联系我们",
+          term: "",
           description: "专业群控养号工作室的最佳选择。",
-          devices: "支持最多 50 台安卓设备",
+          devices: "支持最多 200 台安卓设备",
           features: [
             "包含 Starter 计划的所有功能",
             "智能自动网格屏幕布局",
@@ -629,7 +629,7 @@ window.productLanguages = {
           price: "联系我们",
           term: "",
           description: "为需要定制集成的企业提供专属解决方案。",
-          devices: "无限制连接设备",
+          devices: "支持最多 300 台安卓设备",
           features: [
             "包含 Professional 计划的所有功能",
             "按项目定制代码构建",
@@ -646,7 +646,7 @@ window.productLanguages = {
     faqs: [
       {
         q: "该软件需要对安卓手机进行 Root 吗？",
-        a: "完全不需要 Root。DroidVision Pro 通过谷歌标准的 ADB 连接工作。您的设备保持安全，保留官方保修，并避免被应用检测到。"
+        a: "完全不需要 Root。Bridge Devices 通过谷歌标准的 ADB 连接工作。您的设备保持安全，保留官方保修，并避免被应用检测到。"
       },
       {
         q: "如何将图片或视频文件传输到多台手机？",
@@ -662,7 +662,7 @@ window.productLanguages = {
       }
     ],
     footer: {
-      about: "DroidVision Pro 是为 MMO 从业者和测试人员提供集中式移动管理解决方案的领先供应商。",
+      about: "Bridge Devices 是为 MMO 从业者和测试人员提供集中式移动管理解决方案的领先供应商。",
       contact: {
         phone: "0987.654.321",
         email: "support@droidvision.vn",
@@ -680,12 +680,12 @@ window.productLanguages = {
         { icon: "fa-youtube", href: "#" },
         { icon: "fa-telegram-plane", href: "#" }
       ],
-      copyright: "© 2026 DroidVision Pro. 保留所有权利。"
+      copyright: "© 2026 Bridge Devices. 保留所有权利。"
     },
     ui: {
-      title: "DroidVision Pro - 安卓群控与集中管理系统",
+      title: "Bridge Devices - 安卓群控与集中管理系统",
       description: "低于 15ms 低延迟的集中式安卓控制系统。脚本自动化、群控养号和网络代理切换。专为 MMO 和测试优化。",
-      simTitle: "DroidVision Pro - 中央控制 (运行中...)",
+      simTitle: "Bridge Devices - 中央控制 (运行中...)",
       simActiveCount: "9 在线",
       simSidebarTitle: "控制面板",
       simBtnSync: "同步点击",
@@ -725,8 +725,8 @@ window.productLanguages = {
   },
   ko: {
     brand: {
-      name: "DroidVision Pro",
-      logoText: "DroidVision",
+      name: "Bridge Devices",
+      logoText: "Bridge Devices",
       logoIcon: "fa-mobile-alt",
       slogan: "최고의 안드로이드 통합 제어 및 인터랙션 시스템"
     },
@@ -761,7 +761,7 @@ window.productLanguages = {
         {
           number: "02",
           icon: "fas fa-desktop",
-          title: "DroidVision Pro 실행",
+          title: "Bridge Devices 실행",
           desc: "소프트웨어가 자동으로 감지하여 PC에 전화기 그리드를 즉시 표시합니다."
         },
         {
@@ -784,12 +784,12 @@ window.productLanguages = {
       },
       {
         id: "bulk-file",
-        icon: "fa-folder-open",
-        title: "대량 파일 및 APK 전송",
-        description: "모든 하위 기기로 파일, 이미지, 동영상을 전송합니다. 클릭 한 번으로 APK 앱을 설치하고 삭제합니다.",
-        detailTitle: "드래그 앤 드롭 초고속 앱 설치",
-        detailDesc: "기기를 선택하고 설치를 클릭하거나 APK 파일을 제어판에 직접 드래그 앤 드롭하세요. 연결된 모든 전화기에 병렬로 자동 분배 및 설치됩니다.",
-        image: "images/feature_automation.png"
+        icon: "fa-project-diagram",
+        title: "드래그 앤 드롭 오토 플로우",
+        description: "시각적인 드래그 앤 드롭 자동화 스크립트를 설계합니다. 앱 자동 실행, 상호 작용, 화면 스와이프 및 다중 작업을 모든 연결된 기기에서 병렬로 실행합니다.",
+        detailTitle: "노코드 시각적 자동화 워크플로우",
+        detailDesc: "드래그 앤 드롭 노드(클릭 좌표, 텍스트 입력, 요소 대기, 화면 스와이프 등)를 사용하여 손쉽게 자동화 작업을 빌드하세요. 수백 대의 폰에서 즉시 동시 실행 가능합니다.",
+        image: "images/auto_keo_tha.jpg"
       },
       {
         id: "group-manage",
@@ -798,7 +798,7 @@ window.productLanguages = {
         description: "작업 그룹별로 전화기를 분류하고 배터리 상태, 온도 및 통합 연결 세부 정보를 모니터링합니다.",
         detailTitle: "실시간 하드웨어 상태 모니터링",
         detailDesc: "배터리 잔량, 기기 온도, 여유 RAM을 자동으로 모니터링하여 전화기가 과부하되거나 연결이 끊어지면 알림을 보냅니다.",
-        image: "images/feature_proxy.png"
+        image: "images/nhom.jpg"
       },
       {
         id: "bulk",
@@ -807,7 +807,7 @@ window.productLanguages = {
         description: "마스터 PC에서 클릭, 스크롤, 타이핑을 하면 모든 하위 전화기에서 즉시 실행됩니다. 클릭 한 번으로 메모리 캐시를 정리하세요.",
         detailTitle: "100% 실시간 동기화",
         detailDesc: "앱을 동시에 실행하고 PC 키보드로 텍스트를 입력하여 모든 기기에 전송합니다. 수동 작업 대비 95%의 시간을 절약할 수 있습니다.",
-        image: "images/home_polished.png"
+        image: "images/dong_bo.jpg"
       }
     ],
     gallery: [
@@ -817,14 +817,14 @@ window.productLanguages = {
         src: "images/home_polished.png"
       },
       {
-        title: "대량 파일 및 APK 전송",
-        desc: "빠른 데이터 전송 및 앱 배포를 위한 보조 도구.",
-        src: "images/feature_automation.png"
+        title: "드래그 앤 드롭 오토 플로우",
+        desc: "자동화 스크립트 설계를 위한 시각적인 드래그 앤 드롭 인터페이스.",
+        src: "images/auto_keo_tha.jpg"
       },
       {
         title: "그룹 기기 관리",
         desc: "사용자 지정 카테고리별로 기기 목록을 과학적으로 구성합니다.",
-        src: "images/feature_proxy.png"
+        src: "images/nhom.jpg"
       }
     ],
     pricing: {
@@ -833,10 +833,10 @@ window.productLanguages = {
       plans: [
         {
           name: "Starter 요금제",
-          price: "16,000원",
-          term: "/ 월",
+          price: "문의 요망",
+          term: "",
           description: "MMO를 처음 시작하는 소규모 비즈니스 개인에게 적합합니다.",
-          devices: "최대 10대의 안드로이드 기기 지원",
+          devices: "최대 150대의 안드로이드 기기 지원",
           features: [
             "실시간 화면 미러링",
             "마우스 및 키보드 동기화 제어",
@@ -850,10 +850,10 @@ window.productLanguages = {
         },
         {
           name: "Professional 요금제",
-          price: "43,000원",
-          term: "/ 월",
+          price: "문의 요망",
+          term: "",
           description: "전문적인 계정 파밍 스튜디오를 위한 최고의 선택.",
-          devices: "최대 50대의 안드로이드 기기 지원",
+          devices: "최대 200대의 안드로이드 기기 지원",
           features: [
             "Starter 요금제의 모든 기능",
             "스마트 자동 그리드 화면 레이아웃",
@@ -870,7 +870,7 @@ window.productLanguages = {
           price: "문의 요망",
           term: "",
           description: "맞춤형 통합이 필요한 기업을 위한 맞춤 솔루션.",
-          devices: "연결 기기 무제한",
+          devices: "최대 300대의 안드로이드 기기 지원",
           features: [
             "Professional 요금제의 모든 기능",
             "프로젝트 맞춤형 코드 빌드 지원",
@@ -887,7 +887,7 @@ window.productLanguages = {
     faqs: [
       {
         q: "소프트웨어를 사용하려면 안드로이드 폰을 루팅해야 하나요?",
-        a: "루팅은 전혀 필요하지 않습니다. DroidVision Pro는 구글의 표준 ADB 연결을 통해 작동합니다. 기기는 안전하게 유지되고 공식 보증이 유효하며, 앱들의 루팅 감지를 피할 수 있습니다."
+        a: "루팅은 전혀 필요하지 않습니다. Bridge Devices는 구글의 표준 ADB 연결을 통해 작동합니다. 기기는 안전하게 유지되고 공식 보증이 유효하며, 앱들의 루팅 감지를 피할 수 있습니다."
       },
       {
         q: "여러 대의 전화기에 이미지나 동영상을 어떻게 전송하나요?",
@@ -903,7 +903,7 @@ window.productLanguages = {
       }
     ],
     footer: {
-      about: "DroidVision Pro는 MMO 및 테스터를 위한 통합 모바일 관리 솔루션 부문의 선두 주자입니다.",
+      about: "Bridge Devices는 MMO 및 테스터를 위한 통합 모바일 관리 솔루션 부문의 선두 주자입니다.",
       contact: {
         phone: "0987.654.321",
         email: "support@droidvision.vn",
@@ -921,12 +921,12 @@ window.productLanguages = {
         { icon: "fa-youtube", href: "#" },
         { icon: "fa-telegram-plane", href: "#" }
       ],
-      copyright: "© 2026 DroidVision Pro. All rights reserved."
+      copyright: "© 2026 Bridge Devices. All rights reserved."
     },
     ui: {
-      title: "DroidVision Pro - 안드로이드 통합 제어 및 관리",
+      title: "Bridge Devices - 안드로이드 통합 제어 및 관리",
       description: "15ms 미만의 초저지연 안드로이드 통합 제어 시스템. 스크립트 자동화, 계정 육성 및 네트워크 프록시 변경. MMO 및 테스트 최적화.",
-      simTitle: "DroidVision Pro - 중앙 제어 (실행 중...)",
+      simTitle: "Bridge Devices - 중앙 제어 (실행 중...)",
       simActiveCount: "9 온라인",
       simSidebarTitle: "제어판",
       simBtnSync: "클릭 동기화",
@@ -966,8 +966,8 @@ window.productLanguages = {
   },
   th: {
     brand: {
-      name: "DroidVision Pro",
-      logoText: "DroidVision",
+      name: "Bridge Devices",
+      logoText: "Bridge Devices",
       logoIcon: "fa-mobile-alt",
       slogan: "สุดยอดระบบควบคุมและปฏิสัมพันธ์ระบบแอนดรอยด์แบบรวมศูนย์"
     },
@@ -1002,7 +1002,7 @@ window.productLanguages = {
         {
           number: "02",
           icon: "fas fa-desktop",
-          title: "เปิด DroidVision Pro",
+          title: "เปิด Bridge Devices",
           desc: "ซอฟต์แวร์จะตรวจจับและแสดงตารางโทรศัพท์บนพีซีทันที"
         },
         {
@@ -1025,12 +1025,12 @@ window.productLanguages = {
       },
       {
         id: "bulk-file",
-        icon: "fa-folder-open",
-        title: "การส่งไฟล์และ APK จำนวนมาก",
-        description: "ส่งไฟล์ รูปภาพ วิดีโอ ไปยังอุปกรณ์ย่อยทั้งหมด ติดตั้งและถอนการติดตั้งแอป APK ด้วยการคลิกเพียงครั้งเดียว",
-        detailTitle: "ลากและวางเพื่อติดตั้งแอปความเร็วสูง",
-        detailDesc: "เพียงเลือกอุปกรณ์ของคุณ คลิกติดตั้ง หรือลากไฟล์ APK มาวางในส่วนควบคุมได้โดยตรง ซอฟต์แวร์จะกระจายและติดตั้งในแบบขนานไปยังโทรศัพท์ที่เชื่อมต่อทั้งหมดโดยอัตโนมัติ",
-        image: "images/feature_automation.png"
+        icon: "fa-project-diagram",
+        title: "ออโต้โฟลว์ ลากวาง",
+        description: "ออกแบบสคริปต์การทำงานอัตโนมัติแบบลากและวางด้วยภาพ เปิดแอปพลิเคชัน โต้ตอบ ปัดหน้าจอ และรันหลายงานพร้อมกันบนอุปกรณ์ทั้งหมดโดยอัตโนมัติ",
+        detailTitle: "เวิร์กโฟลว์อัตโนมัติด้วยภาพแบบไม่ต้องเขียนโค้ด",
+        detailDesc: "สร้างงานอัตโนมัติอย่างง่ายดายโดยใช้โหนดลากและวาง (เช่น คลิกพิกัด, พิมพ์ข้อความ, รอองค์ประกอบ, ปัดหน้าจอ) รันคำสั่งพร้อมกันบนโทรศัพท์หลายร้อยเครื่องได้ทันที",
+        image: "images/auto_keo_tha.jpg"
       },
       {
         id: "group-manage",
@@ -1039,7 +1039,7 @@ window.productLanguages = {
         description: "แยกหมวดหมู่โทรศัพท์ตามกลุ่มงาน ติดตามสถานะแบตเตอรี่ อุณหภูมิ และรายละเอียดการเชื่อมต่อแบบรวมศูนย์",
         detailTitle: "การตรวจสอบสถานะฮาร์ดแวร์แบบเรียลไทม์",
         detailDesc: "ติดตามระดับแบตเตอรี่ อุณหภูมิอุปกรณ์ และพื้นที่ว่างของ RAM โดยอัตโนมัติเพื่อส่งสัญญาณเตือนหากมีโทรศัพท์ที่ทำงานหนักเกินไปหรือหลุดการเชื่อมต่อ",
-        image: "images/feature_proxy.png"
+        image: "images/nhom.jpg"
       },
       {
         id: "bulk",
@@ -1048,7 +1048,7 @@ window.productLanguages = {
         description: "คลิก เลื่อน และพิมพ์บนพีซีหลักแล้วเครื่องย่อยทั้งหมดจะทำงานตามทันที ล้างแคชหน่วยความจำด้วยการคลิกเพียงครั้งเดียว",
         detailTitle: "การซิงโครไนซ์ 100% แบบเรียลไทม์",
         detailDesc: "เปิดแอปพลิเคชันพร้อมกัน พิมพ์ข้อความจากคีย์บอร์ดพีซีและกระจายไปยังโทรศัพท์ทั้งหมดโดยอัตโนมัติ ประหยัดเวลาได้ถึง 95% เมื่อเทียบกับการทำงานด้วยตนเอง",
-        image: "images/home_polished.png"
+        image: "images/dong_bo.jpg"
       }
     ],
     gallery: [
@@ -1058,14 +1058,14 @@ window.productLanguages = {
         src: "images/home_polished.png"
       },
       {
-        title: "การส่งไฟล์และ APK จำนวนมาก",
-        desc: "เครื่องมือช่วยในการส่งข้อมูลและการติดตั้งแอปอย่างรวดเร็ว",
-        src: "images/feature_automation.png"
+        title: "ออโต้โฟลว์ ลากวาง",
+        desc: "อินเทอร์เฟซลากและวางสำหรับออกแบบสคริปต์การทำงานอัตโนมัติ",
+        src: "images/auto_keo_tha.jpg"
       },
       {
         title: "การจัดการอุปกรณ์แบบกลุ่ม",
         desc: "จัดระเบียบรายการโทรศัพท์อย่างเป็นระบบตามหมวดหมู่ที่คุณต้องการ",
-        src: "images/feature_proxy.png"
+        src: "images/nhom.jpg"
       }
     ],
     pricing: {
@@ -1074,10 +1074,10 @@ window.productLanguages = {
       plans: [
         {
           name: "แผน Starter",
-          price: "420 บาท",
-          term: "/ เดือน",
+          price: "ติดต่อเรา",
+          term: "",
           description: "เหมาะสำหรับบุคคลทั่วไปที่ทำธุรกิจขนาดเล็กที่เพิ่งเริ่มต้นทำ MMO",
-          devices: "รองรับอุปกรณ์แอนดรอยด์สูงสุด 10 เครื่อง",
+          devices: "รองรับอุปกรณ์แอนดรอยด์สูงสุด 150 เครื่อง",
           features: [
             "สะท้อนหน้าจอแบบเรียลไทม์",
             "ควบคุมเมาส์และคีย์บอร์ดพร้อมกัน",
@@ -1091,10 +1091,10 @@ window.productLanguages = {
         },
         {
           name: "แผน Professional",
-          price: "1,120 บาท",
-          term: "/ เดือน",
+          price: "ติดต่อเรา",
+          term: "",
           description: "ตัวเลือกที่ดีที่สุดสำหรับสตูดิโอทำฟาร์มบัญชีมืออาชีพ",
-          devices: "รองรับอุปกรณ์แอนดรอยด์สูงสุด 50 เครื่อง",
+          devices: "รองรับอุปกรณ์แอนดรอยด์สูงสุด 200 เครื่อง",
           features: [
             "รวมฟีเจอร์ทั้งหมดของแผน Starter",
             "การจัดหน้าจอแบบตารางอัตโนมัติอัจฉริยะ",
@@ -1111,7 +1111,7 @@ window.productLanguages = {
           price: "ติดต่อเรา",
           term: "",
           description: "โซลูชันที่ปรับแต่งเฉพาะสำหรับองค์กรที่ต้องการการบูรณาการระบบเป็นพิเศษ",
-          devices: "ไม่จำกัดการเชื่อมต่ออุปกรณ์",
+          devices: "รองรับอุปกรณ์แอนดรอยด์สูงสุด 300 เครื่อง",
           features: [
             "รวมฟีเจอร์ทั้งหมดของแผน Professional",
             "สนับสนุนการสร้างรหัสที่กำหนดเองตามโครงการ",
@@ -1128,7 +1128,7 @@ window.productLanguages = {
     faqs: [
       {
         q: "ซอฟต์แวร์จำเป็นต้องรูทเครื่องโทรศัพท์แอนดรอยด์หรือไม่?",
-        a: "ไม่จำเป็นต้องรูทเครื่องอย่างแน่นอน DroidVision Pro ทำงานผ่านการเชื่อมต่อ ADB มาตรฐานของ Google อุปกรณ์ของคุณยังคงปลอดภัย ได้รับการรับประกันจากศูนย์ และหลีกเลี่ยงการถูกตรวจพบโดยแอปพลิเคชันต่างๆ"
+        a: "ไม่จำเป็นต้องรูทเครื่องอย่างแน่นอน Bridge Devices ทำงานผ่านการเชื่อมต่อ ADB มาตรฐานของ Google อุปกรณ์ของคุณยังคงปลอดภัย ได้รับการรับประกันจากศูนย์ และหลีกเลี่ยงการถูกตรวจพบโดยแอปพลิเคชันต่างๆ"
       },
       {
         q: "ฉันจะส่งไฟล์รูปภาพหรือวิดีโอไปยังโทรศัพท์หลายเครื่องได้อย่างไร?",
@@ -1144,7 +1144,7 @@ window.productLanguages = {
       }
     ],
     footer: {
-      about: "DroidVision Pro เป็นผู้ให้บริการชั้นนำด้านโซลูชันการจัดการอุปกรณ์เคลื่อนที่แบบรวมศูนย์สำหรับผู้ทำ MMO และผู้ทดสอบแอปพลิเคชัน",
+      about: "Bridge Devices เป็นผู้ให้บริการชั้นนำด้านโซลูชันการจัดการอุปกรณ์เคลื่อนที่แบบรวมศูนย์สำหรับผู้ทำ MMO และผู้ทดสอบแอปพลิเคชัน",
       contact: {
         phone: "0987.654.321",
         email: "support@droidvision.vn",
@@ -1162,12 +1162,12 @@ window.productLanguages = {
         { icon: "fa-youtube", href: "#" },
         { icon: "fa-telegram-plane", href: "#" }
       ],
-      copyright: "© 2026 DroidVision Pro. สงวนลิขสิทธิ์ทั้งหมด"
+      copyright: "© 2026 Bridge Devices. สงวนลิขสิทธิ์ทั้งหมด"
     },
     ui: {
-      title: "DroidVision Pro - ระบบควบคุมและจัดการอุปกรณ์แอนดรอยด์แบบรวมศูนย์",
+      title: "Bridge Devices - ระบบควบคุมและจัดการอุปกรณ์แอนดรอยด์แบบรวมศูนย์",
       description: "ระบบควบคุมแอนดรอยด์แบบรวมศูนย์ที่มีความหน่วงต่ำ (<15ms) ทำงานสคริปต์อัตโนมัติ ฟาร์มบัญชี และสลับเครือข่ายพร็อกซี เหมาะสำหรับการทดสอบและ MMO",
-      simTitle: "DroidVision Pro - แผงควบคุมหลัก (กำลังทำงาน...)",
+      simTitle: "Bridge Devices - แผงควบคุมหลัก (กำลังทำงาน...)",
       simActiveCount: "9 ออนไลน์",
       simSidebarTitle: "แผงควบคุม",
       simBtnSync: "ซิงค์การคลิก",
@@ -1207,8 +1207,8 @@ window.productLanguages = {
   },
   id: {
     brand: {
-      name: "DroidVision Pro",
-      logoText: "DroidVision",
+      name: "Bridge Devices",
+      logoText: "Bridge Devices",
       logoIcon: "fa-mobile-alt",
       slogan: "Sistem Kontrol & Interaksi Terpusat Android Terbaik"
     },
@@ -1243,7 +1243,7 @@ window.productLanguages = {
         {
           number: "02",
           icon: "fas fa-desktop",
-          title: "Jalankan DroidVision Pro",
+          title: "Jalankan Bridge Devices",
           desc: "Aplikasi mendeteksi dan menampilkan kisi layar ponsel secara instan di PC."
         },
         {
@@ -1266,12 +1266,12 @@ window.productLanguages = {
       },
       {
         id: "bulk-file",
-        icon: "fa-folder-open",
-        title: "Transfer File & APK Massal",
-        description: "Kirim file, gambar, video ke semua perangkat anak. Instal dan hapus aplikasi APK dengan satu klik mudah.",
-        detailTitle: "Instal Aplikasi Super Cepat via Seret & Taruh",
-        detailDesc: "Cukup pilih perangkat Anda, klik instal atau seret file APK langsung ke dasbor. Aplikasi akan mendistribusikan dan menginstal secara paralel di semua HP yang terhubung.",
-        image: "images/feature_automation.png"
+        icon: "fa-project-diagram",
+        title: "Auto Flow Seret & Lepas",
+        description: "Rancang skrip otomatisasi seret-dan-lepas secara visual. Buka aplikasi, berinteraksi, geser layar, dan jalankan multi-tugas paralel pada semua perangkat terhubung.",
+        detailTitle: "Alur Kerja Otomatisasi Visual Tanpa Kode",
+        detailDesc: "Bangun tugas otomatis dengan mudah menggunakan node seret-dan-lepas (seperti klik koordinat, ketik teks, tunggu elemen, geser layar). Jalankan secara paralel di ratusan ponsel sekaligus.",
+        image: "images/auto_keo_tha.jpg"
       },
       {
         id: "group-manage",
@@ -1280,7 +1280,7 @@ window.productLanguages = {
         description: "Klasifikasikan HP berdasarkan grup tugas, pantau status baterai, suhu, dan detail koneksi terpusat.",
         detailTitle: "Pemantauan Status Perangkat Keras Real-time",
         detailDesc: "Melacak tingkat baterai, suhu perangkat, dan sisa RAM secara otomatis untuk memberikan peringatan jika ada HP yang kelebihan beban atau terputus.",
-        image: "images/feature_proxy.png"
+        image: "images/nhom.jpg"
       },
       {
         id: "bulk",
@@ -1289,7 +1289,7 @@ window.productLanguages = {
         description: "Klik, gulir, dan ketik di PC master dan semua HP anak akan mengeksekusi secara instan. Bersihkan cache memori dengan satu klik.",
         detailTitle: "Sinkronisasi 100% Real-time",
         detailDesc: "Buka aplikasi secara bersamaan, ketik teks dari keyboard PC dan distribusikan ke semua HP secara otomatis. Menghemat waktu 95% dibandingkan operasi manual.",
-        image: "images/home_polished.png"
+        image: "images/dong_bo.jpg"
       }
     ],
     gallery: [
@@ -1299,14 +1299,14 @@ window.productLanguages = {
         src: "images/home_polished.png"
       },
       {
-        title: "Transfer File & APK Massal",
-        desc: "Alat bantu untuk pengiriman data dan distribusi aplikasi yang cepat.",
-        src: "images/feature_automation.png"
+        title: "Auto Flow Seret & Lepas",
+        desc: "Antarmuka seret-dan-lepas visual untuk merancang skrip otomatisasi.",
+        src: "images/auto_keo_tha.jpg"
       },
       {
         title: "Manajemen Perangkat Berkelompok",
         desc: "Atur daftar HP secara teratur berdasarkan kategori kustom Anda.",
-        src: "images/feature_proxy.png"
+        src: "images/nhom.jpg"
       }
     ],
     pricing: {
@@ -1315,10 +1315,10 @@ window.productLanguages = {
       plans: [
         {
           name: "Paket Starter",
-          price: "Rp 180.000",
-          term: "/ bulan",
+          price: "Hubungi Kami",
+          term: "",
           description: "Cocok untuk individu bisnis kecil yang baru memulai MMO.",
-          devices: "Mendukung hingga 10 perangkat Android",
+          devices: "Mendukung hingga 150 perangkat Android",
           features: [
             "Cermin layar real-time",
             "Kontrol sinkron mouse & keyboard",
@@ -1332,10 +1332,10 @@ window.productLanguages = {
         },
         {
           name: "Paket Professional",
-          price: "Rp 490.000",
-          term: "/ bulan",
+          price: "Hubungi Kami",
+          term: "",
           description: "Pilihan terbaik untuk studio farming akun profesional.",
-          devices: "Mendukung hingga 50 perangkat Android",
+          devices: "Mendukung hingga 200 perangkat Android",
           features: [
             "Semua fitur paket Starter",
             "Tata letak layar kisi otomatis pintar",
@@ -1352,7 +1352,7 @@ window.productLanguages = {
           price: "Hubungi Kami",
           term: "",
           description: "Solusi khusus untuk perusahaan yang membutuhkan integrasi khusus.",
-          devices: "Perangkat terhubung tanpa batas",
+          devices: "Mendukung hingga 300 perangkat Android",
           features: [
             "Semua fitur paket Professional",
             "Dukungan pembuatan kode kustom per proyek",
@@ -1369,7 +1369,7 @@ window.productLanguages = {
     faqs: [
       {
         q: "Apakah aplikasi memerlukan root pada HP Android?",
-        a: "Sama sekali tidak memerlukan root. DroidVision Pro berfungsi melalui koneksi ADB standar Google. Perangkat Anda tetap aman, garansi resmi tetap berlaku, dan terhindar dari deteksi aplikasi."
+        a: "Sama sekali tidak memerlukan root. Bridge Devices berfungsi melalui koneksi ADB standar Google. Perangkat Anda tetap aman, garansi resmi tetap berlaku, dan terhindar dari deteksi aplikasi."
       },
       {
         q: "Bagaimana cara mentransfer file gambar atau video ke banyak HP?",
@@ -1385,7 +1385,7 @@ window.productLanguages = {
       }
     ],
     footer: {
-      about: "DroidVision Pro adalah penyedia solusi manajemen perangkat seluler terpusat terkemuka untuk para pelaku MMO dan Tester.",
+      about: "Bridge Devices adalah penyedia solusi manajemen perangkat seluler terpusat terkemuka untuk para pelaku MMO dan Tester.",
       contact: {
         phone: "0987.654.321",
         email: "support@droidvision.vn",
@@ -1403,12 +1403,12 @@ window.productLanguages = {
         { icon: "fa-youtube", href: "#" },
         { icon: "fa-telegram-plane", href: "#" }
       ],
-      copyright: "© 2026 DroidVision Pro. Hak cipta dilindungi undang-undang."
+      copyright: "© 2026 Bridge Devices. Hak cipta dilindungi undang-undang."
     },
     ui: {
-      title: "DroidVision Pro - Kontrol & Manajemen Terpusat Android",
+      title: "Bridge Devices - Kontrol & Manajemen Terpusat Android",
       description: "Sistem kontrol Android terpusat berlatensi rendah (<15ms). Otomatisasi skrip, farming akun, dan perubahan proxy jaringan. Dioptimalkan untuk MMO dan pengujian.",
-      simTitle: "DroidVision Pro - Kontrol Utama (Berjalan...)",
+      simTitle: "Bridge Devices - Kontrol Utama (Berjalan...)",
       simActiveCount: "9 Online",
       simSidebarTitle: "PANEL KONTROL",
       simBtnSync: "Sinkronisasi Klik",
@@ -1448,8 +1448,8 @@ window.productLanguages = {
   },
   ru: {
     brand: {
-      name: "DroidVision Pro",
-      logoText: "DroidVision",
+      name: "Bridge Devices",
+      logoText: "Bridge Devices",
       logoIcon: "fa-mobile-alt",
       slogan: "Ультимативная система централизованного управления и взаимодействия Android"
     },
@@ -1484,7 +1484,7 @@ window.productLanguages = {
         {
           number: "02",
           icon: "fas fa-desktop",
-          title: "Запуск DroidVision Pro",
+          title: "Запуск Bridge Devices",
           desc: "Программа автоматически обнаружит устройства и мгновенно покажет сетку экранов на ПК."
         },
         {
@@ -1507,12 +1507,12 @@ window.productLanguages = {
       },
       {
         id: "bulk-file",
-        icon: "fa-folder-open",
-        title: "Массовая передача файлов и APK",
-        description: "Передача файлов, изображений, видео на все дочерние устройства. Установка и удаление APK-приложений одним кликом.",
-        detailTitle: "Установка приложений простым перетаскиванием",
-        detailDesc: "Просто выберите устройства, нажмите установку или перетащите файлы APK прямо в панель. Программа автоматически распределит и установит их параллельно на все подключенные телефоны.",
-        image: "images/feature_automation.png"
+        icon: "fa-project-diagram",
+        title: "Автоматизация Auto Flow",
+        description: "Визуальное проектирование сценариев автоматизации перетаскиванием. Автоматический запуск приложений, имитация кликов, скроллинг и параллельное выполнение задач на всех устройствах.",
+        detailTitle: "Визуальный рабочий процесс без кода",
+        detailDesc: "Легко создавайте автоматические задачи с помощью перетаскиваемых блоков (клик по координатам, ввод текста, ожидание элемента, свайп экрана). Масштабируйте выполнение на сотни телефонов.",
+        image: "images/auto_keo_tha.jpg"
       },
       {
         id: "group-manage",
@@ -1521,7 +1521,7 @@ window.productLanguages = {
         description: "Классифицируйте телефоны по рабочим группам, отслеживайте уровень заряда батареи, температуру и детальный статус подключения.",
         detailTitle: "Мониторинг аппаратного состояния в реальном времени",
         detailDesc: "Автоматически собирает данные о заряде батареи, температуре и свободной оперативной памяти, предупреждая о перегрузках или отключениях.",
-        image: "images/feature_proxy.png"
+        image: "images/nhom.jpg"
       },
       {
         id: "bulk",
@@ -1530,7 +1530,7 @@ window.productLanguages = {
         description: "Клики, прокрутка и ввод текста на главном ПК мгновенно воспроизводятся на всех телефонах. Очистка кэша памяти в один клик.",
         detailTitle: "100% синхронизация в реальном времени",
         detailDesc: "Запускайте приложения одновременно, вводите текст с клавиатуры ПК и автоматически распределяйте его по всем телефонам. Экономия до 95% времени по сравнению с ручной работой.",
-        image: "images/home_polished.png"
+        image: "images/dong_bo.jpg"
       }
     ],
     gallery: [
@@ -1540,14 +1540,14 @@ window.productLanguages = {
         src: "images/home_polished.png"
       },
       {
-        title: "Массовая передача файлов и APK",
-        desc: "Инструмент для быстрой отправки данных и распределения приложений.",
-        src: "images/feature_automation.png"
+        title: "Автоматизация Auto Flow",
+        desc: "Визуальный интерфейс перетаскивания для создания сценариев автоматизации.",
+        src: "images/auto_keo_tha.jpg"
       },
       {
         title: "Групповое управление устройствами",
         desc: "Удобная организация списка телефонов по настраиваемым категориям.",
-        src: "images/feature_proxy.png"
+        src: "images/nhom.jpg"
       }
     ],
     pricing: {
@@ -1556,10 +1556,10 @@ window.productLanguages = {
       plans: [
         {
           name: "Тариф Starter",
-          price: "1 150 руб.",
-          term: "/ мес.",
+          price: "Контакты",
+          term: "",
           description: "Подходит для индивидуальных предпринимателей, начинающих работу в MMO.",
-          devices: "Поддержка до 10 устройств Android",
+          devices: "Поддержка до 150 устройств Android",
           features: [
             "Зеркалирование экрана в реальном времени",
             "Синхронное управление мышью и клавиатурой",
@@ -1573,10 +1573,10 @@ window.productLanguages = {
         },
         {
           name: "Тариф Professional",
-          price: "3 150 руб.",
-          term: "/ мес.",
+          price: "Контакты",
+          term: "",
           description: "Лучший выбор для профессиональных студий фарма аккаунтов.",
-          devices: "Поддержка до 50 устройств Android",
+          devices: "Поддержка до 200 устройств Android",
           features: [
             "Все функции тарифа Starter",
             "Умная автоматическая сетка экранов",
@@ -1593,7 +1593,7 @@ window.productLanguages = {
           price: "Контакты",
           term: "",
           description: "Индивидуальные решения для предприятий, которым необходима кастомная интеграция.",
-          devices: "Неограниченное число устройств",
+          devices: "Поддержка до 300 устройств Android",
           features: [
             "Все функции тарифа Professional",
             "Сборка индивидуального кода под проект",
@@ -1610,7 +1610,7 @@ window.productLanguages = {
     faqs: [
       {
         q: "Требует ли программа Root-прав на телефонах Android?",
-        a: "Root-права абсолютно не требуются. DroidVision Pro работает через стандартное подключение ADB от Google. Ваши устройства остаются в безопасности, сохраняют официальную гарантию и не обнаруживаются приложениями как модифицированные."
+        a: "Root-права абсолютно не требуются. Bridge Devices работает через стандартное подключение ADB от Google. Ваши устройства остаются в безопасности, сохраняют официальную гарантию и не обнаруживаются приложениями как модифицированные."
       },
       {
         q: "Как передать файлы изображений или видео на несколько телефонов?",
@@ -1626,7 +1626,7 @@ window.productLanguages = {
       }
     ],
     footer: {
-      about: "DroidVision Pro — ведущий поставщик решений для централизованного управления мобильными устройствами для MMO-специалистов и тестировщиков.",
+      about: "Bridge Devices — ведущий поставщик решений для централизованного управления мобильными устройствами для MMO-специалистов и тестировщиков.",
       contact: {
         phone: "0987.654.321",
         email: "support@droidvision.vn",
@@ -1644,12 +1644,12 @@ window.productLanguages = {
         { icon: "fa-youtube", href: "#" },
         { icon: "fa-telegram-plane", href: "#" }
       ],
-      copyright: "© 2026 DroidVision Pro. Все права защищены."
+      copyright: "© 2026 Bridge Devices. Все права защищены."
     },
     ui: {
-      title: "DroidVision Pro - Централизованное управление и контроль Android",
+      title: "Bridge Devices - Централизованное управление и контроль Android",
       description: "Система централизованного управления Android с низкой задержкой (<15 мс). Автоматизация скриптов, фарм аккаунтов и смена прокси. Оптимизировано для MMO и тестирования.",
-      simTitle: "DroidVision Pro - Центр управления (Запущено...)",
+      simTitle: "Bridge Devices - Центр управления (Запущено...)",
       simActiveCount: "9 Онлайн",
       simSidebarTitle: "ПАНЕЛЬ УПРАВЛЕНИЯ",
       simBtnSync: "Синхр. кликов",
@@ -1689,8 +1689,8 @@ window.productLanguages = {
   },
   hi: {
     brand: {
-      name: "DroidVision Pro",
-      logoText: "DroidVision",
+      name: "Bridge Devices",
+      logoText: "Bridge Devices",
       logoIcon: "fa-mobile-alt",
       slogan: "सर्वश्रेष्ठ एंड्रॉइड केंद्रीकृत नियंत्रण और इंटरैक्शन सिस्टम"
     },
@@ -1725,7 +1725,7 @@ window.productLanguages = {
         {
           number: "02",
           icon: "fas fa-desktop",
-          title: "DroidVision Pro लॉन्च करें",
+          title: "Bridge Devices लॉन्च करें",
           desc: "सॉफ़्टवेयर स्वचालित रूप से पहचान करता है और पीसी पर तुरंत फोन ग्रिड प्रदर्शित करता है।"
         },
         {
@@ -1748,12 +1748,12 @@ window.productLanguages = {
       },
       {
         id: "bulk-file",
-        icon: "fa-folder-open",
-        title: "थोक फ़ाइल और APK स्थानांतरण",
-        description: "सभी उप-डिवाइसों पर फ़ाइलें, चित्र, वीडियो स्थानांतरित करें। एक क्लिक से APK ऐप्स इंस्टॉल और अनइंस्टॉल करें।",
-        detailTitle: "ड्रैग एंड ड्रॉप सुपरफास्ट ऐप इंस्टॉल",
-        detailDesc: "बस अपने डिवाइस चुनें, इंस्टॉल पर क्लिक करें या सीधे एपीके फाइलों को ड्रैग-एंड-ड्रॉप करें। सॉफ़्टवेयर स्वचालित रूप से सभी कनेक्टेड फोन पर समानांतर में वितरित और इंस्टॉल करता है।",
-        image: "images/feature_automation.png"
+        icon: "fa-project-diagram",
+        title: "ड्रैग एंड ड्रॉप ऑटो फ्लो",
+        description: "दृश्य ड्रैग-एंड-ड्रॉप ऑटोमेशन स्क्रिप्ट डिज़ाइन करें। सभी कनेक्टेड उपकरणों पर स्वचालित रूप से ऐप्स खोलें, इंटरैक्ट करें, स्वाइप करें और समानांतर मल्टी-टास्क चलाएं।",
+        detailTitle: "नो-कोड विज़ुअल ऑटोमेशन वर्कफ़्लो",
+        detailDesc: "ड्रैग-एंड-ड्रॉप नोड्स (जैसे क्लिक निर्देशांक, टेक्स्ट टाइप करें, तत्व की प्रतीक्षा करें, स्क्रीन स्वाइप करें) का उपयोग करके आसानी से स्वचालित कार्य बनाएं। सैकड़ों फोन पर तुरंत निष्पादन बढ़ाएं।",
+        image: "images/auto_keo_tha.jpg"
       },
       {
         id: "group-manage",
@@ -1762,7 +1762,7 @@ window.productLanguages = {
         description: "कार्य समूहों द्वारा फोन वर्गीकृत करें, बैटरी स्थिति, तापमान और केंद्रीकृत कनेक्शन विवरण की निगरानी करें।",
         detailTitle: "रीयल-टाइम हार्डवेयर स्थिति निगरानी",
         detailDesc: "यदि कोई फोन ओवरलोड हो जाता है या डिस्कनेक्ट हो जाता है तो अलर्ट भेजने के लिए बैटरी स्तर, डिवाइस तापमान और खाली रैम को स्वचालित रूप से ट्रैक करता है।",
-        image: "images/feature_proxy.png"
+        image: "images/nhom.jpg"
       },
       {
         id: "bulk",
@@ -1771,7 +1771,7 @@ window.productLanguages = {
         description: "मास्टर पीसी पर क्लिक, स्क्रॉल और टाइप करें और सभी उप-फोन तुरंत निष्पादित होते हैं। एक क्लिक में मेमोरी कैश साफ़ करें।",
         detailTitle: "100% रीयल-टाइम सिंक्रोनाइज़ेशन",
         detailDesc: "समान समय पर एप्लिकेशन लॉन्च करें, पीसी कीबोर्ड से टेक्स्ट टाइप करें और इसे स्वचालित रूप से सभी फोन में वितरित करें। मैन्युअल कार्यों की तुलना में 95% समय बचाएं।",
-        image: "images/home_polished.png"
+        image: "images/dong_bo.jpg"
       }
     ],
     gallery: [
@@ -1781,14 +1781,14 @@ window.productLanguages = {
         src: "images/home_polished.png"
       },
       {
-        title: "थोक फ़ाइल और APK स्थानांतरण",
-        desc: "त्वरित डेटा ट्रांसफर और ऐप वितरण के लिए सहायक उपकरण।",
-        src: "images/feature_automation.png"
+        title: "ड्रैग एंड ड्रॉप ऑटो फ्लो",
+        desc: "ऑटोमेशन स्क्रिप्ट डिज़ाइन करने के लिए विज़ुअल ड्रैग-एंड-ड्रॉप इंटरफ़ेस।",
+        src: "images/auto_keo_tha.jpg"
       },
       {
         title: "समूह डिवाइस प्रबंधन",
         desc: "कस्टम श्रेणियों द्वारा फोन सूची को व्यवस्थित करें।",
-        src: "images/feature_proxy.png"
+        src: "images/nhom.jpg"
       }
     ],
     pricing: {
@@ -1797,10 +1797,10 @@ window.productLanguages = {
       plans: [
         {
           name: "Starter योजना",
-          price: "₹990",
-          term: "/ महीना",
+          price: "संपर्क करें",
+          term: "",
           description: "एमएमओ के साथ शुरुआत करने वाले लघु व्यवसाय व्यक्तियों के लिए उपयुक्त।",
-          devices: "10 एंड्रॉइड डिवाइस तक का समर्थन",
+          devices: "150 एंड्रॉइड डिवाइस तक का समर्थन",
           features: [
             "रीयल-टाइम स्क्रीन मिररिंग",
             "सिंक्रनाइज़ माउस और कीबोर्ड नियंत्रण",
@@ -1814,10 +1814,10 @@ window.productLanguages = {
         },
         {
           name: "Professional योजना",
-          price: "₹2,690",
-          term: "/ महीना",
+          price: "संपर्क करें",
+          term: "",
           description: "पेशेवर खाता फ़ार्मिंग स्टूडियो के लिए सबसे अच्छा विकल्प।",
-          devices: "50 एंड्रॉइड डिवाइस तक का समर्थन",
+          devices: "200 एंड्रॉइड डिवाइस तक का समर्थन",
           features: [
             "स्टार्टर योजना की सभी विशेषताएं",
             "स्मार्ट ऑटो-ग्रिड स्क्रीन लेआउट",
@@ -1834,7 +1834,7 @@ window.productLanguages = {
           price: "संपर्क करें",
           term: "",
           description: "कस्टम एकीकरण की आवश्यकता वाले उद्यमों के लिए विशेष समाधान।",
-          devices: "असीमित कनेक्टेड डिवाइस",
+          devices: "300 एंड्रॉइड डिवाइस तक का समर्थन",
           features: [
             "Professional योजना की सभी विशेषताएं",
             "परियोजना मिलान कस्टम कोड निर्माण",
@@ -1851,7 +1851,7 @@ window.productLanguages = {
     faqs: [
       {
         q: "क्या सॉफ़्टवेयर को एंड्रॉइड फोन रूट करने की आवश्यकता है?",
-        a: "बिल्कुल रूट की आवश्यकता नहीं है। DroidVision Pro Google के मानक ADB कनेक्शन के माध्यम से काम करता है। आपके डिवाइस सुरक्षित रहते हैं, उनकी आधिकारिक वारंटी बनी रहती है, और ऐप्स द्वारा पकड़े जाने से बचते हैं।"
+        a: "बिल्कुल रूट की आवश्यकता नहीं है। Bridge Devices Google के मानक ADB कनेक्शन के माध्यम से काम करता है। आपके डिवाइस सुरक्षित रहते हैं, उनकी आधिकारिक वारंटी बनी रहती है, और ऐप्स द्वारा पकड़े जाने से बचते हैं।"
       },
       {
         q: "मैं कई फोन पर इमेज या वीडियो फाइलें कैसे ट्रांसफर करूं?",
@@ -1867,7 +1867,7 @@ window.productLanguages = {
       }
     ],
     footer: {
-      about: "DroidVision Pro एमएमओ और परीक्षकों के लिए केंद्रीकृत मोबाइल प्रबंधन समाधानों का अग्रणी प्रदाता है।",
+      about: "Bridge Devices एमएमओ और परीक्षकों के लिए केंद्रीकृत मोबाइल प्रबंधन समाधानों का अग्रणी प्रदाता है।",
       contact: {
         phone: "0987.654.321",
         email: "support@droidvision.vn",
@@ -1885,12 +1885,12 @@ window.productLanguages = {
         { icon: "fa-youtube", href: "#" },
         { icon: "fa-telegram-plane", href: "#" }
       ],
-      copyright: "© 2026 DroidVision Pro. सर्वाधिकार सुरक्षित।"
+      copyright: "© 2026 Bridge Devices. सर्वाधिकार सुरक्षित।"
     },
     ui: {
-      title: "DroidVision Pro - केंद्रीकृत एंड्रॉइड नियंत्रण और प्रबंधन",
+      title: "Bridge Devices - केंद्रीकृत एंड्रॉइड नियंत्रण और प्रबंधन",
       description: "कम विलंबता (<15ms) केंद्रीकृत एंड्रॉइड नियंत्रण प्रणाली। स्क्रिप्ट स्वचालन, खाता खेती, और नेटवर्क प्रॉक्सी परिवर्तन। MMO और परीक्षण के लिए अनुकूलित।",
-      simTitle: "DroidVision Pro - मुख्य नियंत्रण (चल रहा है...)",
+      simTitle: "Bridge Devices - मुख्य नियंत्रण (चल रहा है...)",
       simActiveCount: "9 ऑनलाइन",
       simSidebarTitle: "नियंत्रण पैनल",
       simBtnSync: "क्लिक सिंक",

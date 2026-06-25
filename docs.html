@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tài liệu hướng dẫn - DroidVision Pro</title>
-  <meta name="description" content="Hướng dẫn chi tiết cách kết nối thiết bị Android, điều khiển đồng bộ hàng loạt, cài đặt APK nhanh và khắc phục các sự cố thường gặp trên DroidVision Pro.">
+  <title>Tài liệu hướng dẫn - Bridge Devices</title>
+  <meta name="description" content="Hướng dẫn chi tiết cách kết nối thiết bị Android, điều khiển đồng bộ hàng loạt, cài đặt APK nhanh và khắc phục các sự cố thường gặp trên Bridge Devices.">
   
   <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -187,21 +187,21 @@
       const sidebarTitle = document.getElementById('docs-sidebar-title');
       if (sidebarTitle && docs.title) {
         sidebarTitle.textContent = docs.title;
-        document.title = docs.title + " - DroidVision Pro";
+        document.title = docs.title + " - Bridge Devices";
       }
 
       // Đặt meta description động nếu có
       const metaDesc = document.querySelector('meta[name="description"]');
       if (metaDesc) {
         const descMap = {
-          vi: "Hướng dẫn chi tiết cách kết nối thiết bị Android, điều khiển đồng bộ hàng loạt, cài đặt APK nhanh và khắc phục các sự có thường gặp trên DroidVision Pro.",
-          en: "Detailed guide on connecting Android devices, bulk synchronized control, fast APK installation, and troubleshooting common issues on DroidVision Pro.",
-          zh: "详细指南：在 DroidVision Pro 上连接安卓设备、批量同步控制、快速安装 APK 以及排除常见故障。",
-          ko: "DroidVision Pro에서 안드로이드 기기 연결, 대량 동기화 제어, 빠른 APK 설치 및 자주 발생하는 문제 해결에 대한 상세 가이드.",
-          th: "คู่มือโดยละเอียดเกี่ยวกับการเชื่อมต่ออุปกรณ์แอนดรอยด์, การควบคุมพร้อมกันแบบกลุ่ม, การติดตั้ง APK อย่างรวดเร็ว และการแก้ไขปัญหาที่พบบ่อยบน DroidVision Pro",
-          id: "Panduan terperinci tentang cara menghubungkan perangkat Android, kontrol sinkron massal, instalasi APK cepat, dan penyelesaian masalah umum pada DroidVision Pro.",
-          ru: "Подробное руководство по подключению устройств Android, массовому синхронному управлению, быстрой установке APK и устранению типичных неполадок в DroidVision Pro.",
-          hi: "DroidVision Pro पर एंड्रॉइड डिवाइस कनेक्ट करने, थोक सिंक्रनाइज़ नियंत्रण, त्वरित एपीके इंस्टॉलेशन और सामान्य समस्याओं के निवारण पर विस्तृत मार्गदर्शिका।"
+          vi: "Hướng dẫn chi tiết cách kết nối thiết bị Android, điều khiển đồng bộ hàng loạt, cài đặt APK nhanh và khắc phục các sự có thường gặp trên Bridge Devices.",
+          en: "Detailed guide on connecting Android devices, bulk synchronized control, fast APK installation, and troubleshooting common issues on Bridge Devices.",
+          zh: "详细指南：在 Bridge Devices 上连接安卓设备、批量同步控制、快速安装 APK 以及排除常见故障。",
+          ko: "Bridge Devices에서 안드로이드 기기 연결, 대량 동기화 제어, 빠른 APK 설치 및 자주 발생하는 문제 해결에 대한 상세 가이드.",
+          th: "คู่มือโดยละเอียดเกี่ยวกับการเชื่อมต่ออุปกรณ์แอนดรอยด์, การควบคุมพร้อมกันแบบกลุ่ม, การติดตั้ง APK อย่างรวดเร็ว และการแก้ไขปัญหาที่พบบ่อยบน Bridge Devices",
+          id: "Panduan terperinci tentang cara menghubungkan perangkat Android, kontrol sinkron massal, instalasi APK cepat, dan penyelesaian masalah umum pada Bridge Devices.",
+          ru: "Подробное руководство по подключению устройств Android, массовому синхронному управлению, быстрой установке APK и устранению типичных неполадок в Bridge Devices.",
+          hi: "Bridge Devices पर एंड्रॉइड डिवाइस कनेक्ट करने, थोक सिंक्रनाइज़ नियंत्रण, त्वरित एपीके इंस्टॉलेशन और सामान्य समस्याओं के निवारण पर विस्तृत मार्गदर्शिका।"
         };
         metaDesc.setAttribute('content', descMap[lang] || descMap['vi']);
       }
